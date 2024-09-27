@@ -1,0 +1,72 @@
+function fitToScreen() {
+  fitAddon.fit();
+  socket.emit('resize', {cols: term.cols, rows: term.rows});
+}
+
+let executeClearCommand = true;
+const socket = io.connect(
+    window.location.origin, {path: window.location.pathname + 'socket.io'});
+socket.on('output', (data) => term.write(data.output));
+socket.on('connect', () => {
+  fitToScreen();
+  /*
+   * Only send the clear command on the initial page load and not every time
+   * the socket connects, which may be multiple times per page load.
+   */
+  if (executeClearCommand) {
+    socket.emit('input', {input: 'clear\n'});
+    executeClearCommand = false;
+  }
+});
+window.onresize = fitToScreen;
+
+const term = new Terminal({
+  cursorBlink: true,
+  screenReaderMode: true,
+});
+const fitAddon = new this.FitAddon.FitAddon();
+term.loadAddon(fitAddon);
+term.open(document.getElementById('terminal'));
+fitAddon.fit();
+term.onKey(e => {socket.emit('input', {input: e.key})});
+
+term.attachCustomKeyEventHandler(e => {
+  // Ctrl/Cmd + Shift + C
+  if ((e.ctrlKey || e.metaKey) && e.shiftKey &&
+      (e.key == 'C' || e.key == 'c') && e.type == 'keydown') {
+    e.preventDefault();
+    e.stopPropagation();
+    document.execCommand('copy');
+  }
+  // Cmd + C
+  else if (e.metaKey && (e.key == 'C' || e.key == 'c') && e.type == 'keydown') {
+    document.execCommand('copy');
+  }
+  // Ctrl/Cmd + Shift + V
+  else if (
+      (e.ctrlKey || e.metaKey) && e.shiftKey &&
+      (e.key == 'V' || e.key == 'v') && e.type == 'keydown') {
+    e.preventDefault();
+    e.stopPropagation();
+    navigator.clipboard.readText().then((text) => {
+      socket.emit('input', {input: text});
+    });
+  }
+  // Ctrl/Cmd + V
+  else if (
+      (e.ctrlKey || e.metaKey) && (e.key == 'V' || e.key == 'v') &&
+      e.type == 'keydown') {
+    e.preventDefault();
+    e.stopPropagation();
+    navigator.clipboard.readText().then((text) => {
+      socket.emit('input', {input: text});
+    });
+  }
+});
+
+// Handling Right-Click Paste Events
+function onPasteEvent(event) {
+  let text = (event.clipboardData || window.clipboardData).getData('text');
+  socket.emit('input', {input: text});
+}
+term.textarea.onpaste = onPasteEvent

@@ -1,0 +1,3054 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session -->
+<html lang="en" class="mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="3NNj0GXVktLOmVKwWUDendk4Vq2qgMVDBDX+Sni48ATJl9JBj+zF+9W2HGB3pvt6qowOihTbQgTeBm9SKbdTwYAAABfeyJvcmlnaW4iOiJodHRwczovL3JlY2FwdGNoYS5uZXQ6NDQzIiwiZmVhdHVyZSI6IlRwY2QiLCJleHBpcnkiOjE3MzUzNDM5OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="3NNj0GXVktLOmVKwWUDendk4Vq2qgMVDBDX+Sni48ATJl9JBj+zF+9W2HGB3pvt6qowOihTbQgTeBm9SKbdTwYAAABfeyJvcmlnaW4iOiJodHRwczovL3JlY2FwdGNoYS5uZXQ6NDQzIiwiZmVhdHVyZSI6IlRwY2QiLCJleHBpcnkiOjE3MzUzNDM5OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><style type="text/css">.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 2147483647;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+</style><style type="text/css" data-tag-name="trix-editor">trix-editor {
+    display: block;
+}
+
+trix-editor:empty:not(:focus)::before {
+    content: attr(placeholder);
+    color: graytext;
+    cursor: text;
+    pointer-events: none;
+    white-space: pre-line;
+}
+
+trix-editor a[contenteditable=false] {
+    cursor: text;
+}
+
+trix-editor img {
+    max-width: 100%;
+    height: auto;
+}
+
+trix-editor [data-trix-attachment] figcaption textarea {
+    resize: none;
+}
+
+trix-editor [data-trix-attachment] figcaption textarea.trix-autoresize-clone {
+    position: absolute;
+    left: -9999px;
+    max-height: 0px;
+}
+
+trix-editor [data-trix-attachment] figcaption[data-trix-placeholder]:empty::before {
+    content: attr(data-trix-placeholder);
+    color: graytext;
+}
+
+trix-editor [data-trix-cursor-target] {
+    display: inline-block !important;
+    width: 1px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+trix-editor [data-trix-cursor-target=left] {
+    vertical-align: top !important;
+    margin-left: -1px !important;
+}
+
+trix-editor [data-trix-cursor-target=right] {
+    vertical-align: bottom !important;
+    margin-right: -1px !important;
+}</style><style type="text/css" data-tag-name="trix-toolbar">trix-toolbar {
+  display: block;
+}
+
+trix-toolbar {
+  white-space: nowrap;
+}
+
+trix-toolbar [data-trix-dialog] {
+  display: none;
+}
+
+trix-toolbar [data-trix-dialog][data-trix-active] {
+  display: block;
+}
+
+trix-toolbar [data-trix-dialog] [data-trix-validate]:invalid {
+  background-color: #ffdddd;
+}</style>
+<title>Introducing Git | Google Cloud Skills Boost</title>
+<meta name="action-cable-url" content="/cable">
+<script type="text/javascript" async="" charset="utf-8" src="./Introducing Git _ Google Cloud Skills Boost_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-zYfvuq6xV6aLevocYkVfLId59jcIkDZniQX2TsTt9LIa0Tf1ORHFh4oKI1naLgGF"></script><script type="text/javascript" async="" charset="utf-8" src="./Introducing Git _ Google Cloud Skills Boost_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-zYfvuq6xV6aLevocYkVfLId59jcIkDZniQX2TsTt9LIa0Tf1ORHFh4oKI1naLgGF"></script><script type="text/javascript" async="" src="./Introducing Git _ Google Cloud Skills Boost_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Introducing Git _ Google Cloud Skills Boost_files/js"></script><script async="" src="./Introducing Git _ Google Cloud Skills Boost_files/gtm.js.download"></script><script>
+//<![CDATA[
+window.gon={};gon.deployment="google-run";
+//]]>
+</script>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',"GTM-5XSKHDX");
+</script>
+<script src="./Introducing Git _ Google Cloud Skills Boost_files/js(1)" async="async"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', "G-2X30ZRBDSG", {
+    user_id: "47928032"
+  });
+</script>
+<script>
+  const properties = JSON.parse(atob('eyJsb2NhbGUiOiJlbiIsInVzZXJfcm9sZXMiOiJzdHVkZW50IiwiZmVhdHVyZV9jb3Vyc2VfbW9uZXRpemF0aW9uIjp0cnVlLCJmZWF0dXJlX2NoYXRfb2ZmX2Zvcl9zaWduZWRfb3V0X3VzZXJzIjp0cnVlLCJmZWF0dXJlX2ZlZWRiYWNrIjpmYWxzZSwiZmVhdHVyZV9mcm9udF9kb29yX2xhbmRpbmdfcGFnZSI6ZmFsc2UsImZlYXR1cmVfb25lX3RhcCI6dHJ1ZSwiZmVhdHVyZV9hZ3Jlc3NpdmVfbW9uc29vbl9xdW90YSI6dHJ1ZSwiZmVhdHVyZV9hbGV4YW5kcmlhX3N1YnNjcmlwdGlvbnNfcGFnaW5hdGlvbiI6dHJ1ZSwiZmVhdHVyZV9oZWFkZXJfc2VhcmNoX2JhciI6ZmFsc2UsImZlYXR1cmVfY2F0YWxvZ19maWx0ZXJzX2J1dHRvbiI6dHJ1ZSwiZmVhdHVyZV9jb250ZW50X3Byb3ZpZGVyX2FkbWluIjp0cnVlLCJmZWF0dXJlX2FsZXhhbmRyaWFfc2hvd19idW5kbGVfZXJyb3JzIjp0cnVlLCJmZWF0dXJlX2lubm92YXRvcl9tZW1iZXJzaGlwIjp0cnVlLCJmZWF0dXJlX3R1cmJvIjpmYWxzZSwiZmVhdHVyZV9pbHRfY29udGVudF9wcm9ncmFtIjpmYWxzZSwiZmVhdHVyZV9wZWVyX2Fzc2lnbm1lbnQiOmZhbHNlLCJmZWF0dXJlX25ld19yZXBvcnRfZmllbGRzIjp0cnVlLCJmZWF0dXJlX3BlcnNvbmFsaXplZF9xdWVzdHMiOmZhbHNlLCJmZWF0dXJlX2FpX3NraWxscyI6dHJ1ZSwiZmVhdHVyZV9zaG93X2ludGVydmlld193YXJtdXAiOnRydWUsImZlYXR1cmVfY2FjaGVfZXhwbG9yZV9wYWdlX3Jlc3VsdCI6dHJ1ZSwiZmVhdHVyZV9sZWFybmluZ19wbGFuX3NlYXJjaCI6dHJ1ZSwiZmVhdHVyZV9zZWFyY2hfYXV0b2NvbXBsZXRlIjp0cnVlLCJmZWF0dXJlX2NyZWRseV9tYW5hZ2VtZW50IjpmYWxzZSwiZmVhdHVyZV9oaWRlX3VucG9wdWxhcl9maWx0ZXJzIjp0cnVlLCJmZWF0dXJlX2Nhbm9uaWNhbF9kb21haW5fcmVkaXJlY3QiOnRydWUsImZlYXR1cmVfc2VhcmNoX3N1Z2dlc3Rpb25zIjpmYWxzZSwiZmVhdHVyZV9vbnJhbXAiOnRydWUsImZlYXR1cmVfaW5ub3ZhdG9yX21lbWJlcnNoaXBfbW9kYWwiOnRydWUsImZlYXR1cmVfbW9uc29vbl9xdW90YSI6dHJ1ZSwiZmVhdHVyZV9jcmVkbHlfaW50ZWdyYXRpb25fYW5ub3VuY2VtZW50X21vZGFsIjp0cnVlLCJmZWF0dXJlX3Byb2dyYW1fYW5ub3VuY2VtZW50cyI6dHJ1ZSwiZmVhdHVyZV9iYXJrZXJfcGF1c2UiOmZhbHNlLCJmZWF0dXJlX29hdXRoX3Jpc2Nfc2h1dG9mZiI6dHJ1ZSwiZmVhdHVyZV9jb21tdW5pdHlfZm9ydW0iOmZhbHNlLCJmZWF0dXJlX2xhbmRpbmdfcGFnZSI6dHJ1ZSwiZmVhdHVyZV9zZWFyY2hfdXBkYXRlcyI6dHJ1ZSwiZmVhdHVyZV9yaXNlX3BvYyI6dHJ1ZSwiZmVhdHVyZV9wZXJmX3Rlc3QiOmZhbHNlLCJmZWF0dXJlX2F1dG9fY291cnNlX3VwZ3JhZGUiOmZhbHNlLCJmZWF0dXJlX3Nob3dfYW5udWFsX3B1cmNoYXNlX25vdyI6dHJ1ZSwiZmVhdHVyZV9pd19haV9hc3Npc3RhbnQiOnRydWUsImZlYXR1cmVfY291cnNlX2J1aWxkZXIiOmZhbHNlLCJmZWF0dXJlX2FiX2NvbnRlbnRfZ2NwLW9uZGVtYW5kLWNvbnRlbnQvVC1HT09HQVYtQnxwcm9qZWN0LXNlZWtoby1wdWJsaWMtY2F0YWxvZ3wxLjB8MS4xIjpmYWxzZSwiZmVhdHVyZV90ZWFtcyI6dHJ1ZSwiZmVhdHVyZV9kZWR1cF9iYWRnZSI6dHJ1ZSwiZmVhdHVyZV90ZWxsX25hdnlfYWxsb3dlZF96b25lcyI6dHJ1ZSwiZmVhdHVyZV9ndWVzdF91c2VyIjp0cnVlLCJmZWF0dXJlX3Jlcm91dGVfbmV3X2ludGVydmlld193YXJtdXAiOnRydWUsImZlYXR1cmVfY3JlZGx5Ijp0cnVlLCJmZWF0dXJlX2djc2JvX2ZyZWUiOnRydWUsImZlYXR1cmVfdXNlZF9pbiI6dHJ1ZSwiZmVhdHVyZV9sb2dfY29va2llcyI6ZmFsc2UsImZlYXR1cmVfaGlkZV9wcmljZSI6dHJ1ZSwiZmVhdHVyZV9lbnRpdHlfYXBpX2tleXMiOnRydWUsImdyb3VwX3N1YWRtaW5zIjpmYWxzZSwiZ3JvdXBfbm9uX3N1YWRtaW5zIjp0cnVlLCJncm91cF9hZG1pbnMiOmZhbHNlLCJncm91cF90cmFpbmVycyI6ZmFsc2UsImdyb3VwX2Nvb3JkaW5hdG9ycyI6ZmFsc2UsImdyb3VwX2NyZWF0b3JzIjpmYWxzZSwiZ3JvdXBfc3R1ZGVudHMiOnRydWUsImdyb3VwX25vbl9vcmdhbml6YXRpb24iOnRydWUsImdyb3VwX29yZ2FuaXphdGlvbl9tZW1iZXJzIjpmYWxzZSwiZ3JvdXBfbm9uX3Byb2dyYW0iOnRydWUsImdyb3VwX2dvb2dsZXJzIjpmYWxzZX0='));
+  gtag('set', 'user_properties', properties);
+</script>
+<script src="./Introducing Git _ Google Cloud Skills Boost_files/webcomponents-loader-2e147cb1679d97581f981243bfc2d1c03dc34a58.js.download"></script>
+<script src="./Introducing Git _ Google Cloud Skills Boost_files/vendor-5ee6eafe71fd3831091397e1aa344044a8642273.js.download"></script>
+<script src="./Introducing Git _ Google Cloud Skills Boost_files/application-1429604ccc3fc8e18c3bbb82924db8cb379595f8.js.download"></script><style>:root {
+  --game-color: #E52592;
+  --classroom-color: #01877E;
+  --external-course-color: #D56E0C;
+  --certification-color: #C5221F;
+}
+
+abbr[title],
+abbr[data-original-title] {
+  border-bottom: none !important;
+}
+
+label abbr[title] {
+  color: var(--primary-text-on-surface-color);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--hairline-color);
+  display: block;
+  height: 1px;
+  margin: 24px 0;
+  padding: 0;
+}
+
+mark {
+  background-color: #F9AB00;
+  border-radius: 2px;
+  color: inherit;
+  padding: 2px 0px;
+}
+
+p, li {
+  font: var(--md-sys-typescale-body-large);
+}
+
+._small-label_1gdx7_37,
+._label--small_1gdx7_38 {
+  font: var(--md-sys-typescale-body-medium);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+._mdl-typography--small-title_1gdx7_47 {
+  color: #202124;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+._text--blue_1gdx7_53 {
+  color: var(--primary-text-on-surface-color);
+}
+
+._text--center_1gdx7_57 {
+  text-align: center;
+}
+
+._text--capitalize_1gdx7_61 {
+  text-transform: capitalize;
+}
+
+._text--code_1gdx7_65 {
+  font-family: "Roboto Mono", monospace;
+}
+
+._text--copy_1gdx7_69 {
+  font-family: var(--md-ref-typeface-plain);
+}
+
+._text--error_1gdx7_73 {
+  color: var(--warn-color);
+}
+
+._text--free_1gdx7_77 {
+  color: var(--success-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+._text--gray_1gdx7_83 {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+._text--light_1gdx7_87 {
+  color: var(--light-text-on-surface-color) !important;
+}
+
+._text--right_1gdx7_91 {
+  text-align: right;
+}
+
+._text--sign_1gdx7_95 {
+  font-family: "Oswald", sans-serif;
+}
+
+._text--small_1gdx7_99 {
+  font-size: 14px !important;
+}
+
+._text--large_1gdx7_103 {
+  font-size: 20px !important;
+}
+
+._text--success_1gdx7_107 {
+  color: var(--success-color) !important;
+}
+
+._text--yellow_1gdx7_111 {
+  color: #F9AB00;
+}
+
+._text--red_1gdx7_115 {
+  color: #D93025;
+}
+
+._text--green_1gdx7_119 {
+  color: #34A853;
+}
+
+u {
+  text-decoration: none;
+}
+
+._material-icons_1gdx7_127 {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+._ellipsis_1gdx7_149 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+._text--rtl_1gdx7_155 {
+  direction: rtl;
+}
+
+._body-wrapper_1gdx7_159 {
+  max-width: 800px;
+}
+
+._text--button_1gdx7_163 {
+  font: var(--md-sys-typescale-label-large);
+}</style>
+<script src="./Introducing Git _ Google Cloud Skills Boost_files/hallofmirrors-eb94a19f4e35b65e17007848ffd22bb1aa1c96d0.js.download"></script>
+<custom-style>
+  <style is="custom-style">[hidden] {
+  display: none !important;
+}
+
+</style>
+</custom-style>
+<custom-style>
+  <style is="custom-style">html {
+  --layout_-_display:  flex;;
+
+      --layout-inline_-_display:  inline-flex;;
+
+      --layout-horizontal_-_display:  var(--layout_-_display); --layout-horizontal_-_-ms-flex-direction:  row; --layout-horizontal_-_-webkit-flex-direction:  row; --layout-horizontal_-_flex-direction:  row;;
+
+      --layout-horizontal-reverse_-_display:  var(--layout_-_display); --layout-horizontal-reverse_-_-ms-flex-direction:  row-reverse; --layout-horizontal-reverse_-_-webkit-flex-direction:  row-reverse; --layout-horizontal-reverse_-_flex-direction:  row-reverse;;
+
+      --layout-vertical_-_display:  var(--layout_-_display); --layout-vertical_-_-ms-flex-direction:  column; --layout-vertical_-_-webkit-flex-direction:  column; --layout-vertical_-_flex-direction:  column;;
+
+      --layout-vertical-reverse_-_display:  var(--layout_-_display); --layout-vertical-reverse_-_-ms-flex-direction:  column-reverse; --layout-vertical-reverse_-_-webkit-flex-direction:  column-reverse; --layout-vertical-reverse_-_flex-direction:  column-reverse;;
+
+      --layout-wrap_-_-ms-flex-wrap:  wrap; --layout-wrap_-_-webkit-flex-wrap:  wrap; --layout-wrap_-_flex-wrap:  wrap;;
+
+      --layout-wrap-reverse_-_-ms-flex-wrap:  wrap-reverse; --layout-wrap-reverse_-_-webkit-flex-wrap:  wrap-reverse; --layout-wrap-reverse_-_flex-wrap:  wrap-reverse;;
+
+      --layout-flex-auto_-_-ms-flex:  1 1 auto; --layout-flex-auto_-_-webkit-flex:  1 1 auto; --layout-flex-auto_-_flex:  1 1 auto;;
+
+      --layout-flex-none_-_-ms-flex:  none; --layout-flex-none_-_-webkit-flex:  none; --layout-flex-none_-_flex:  none;;
+
+      --layout-flex_-_-ms-flex:  1 1 0.000000001px; --layout-flex_-_-webkit-flex:  1; --layout-flex_-_flex:  1; --layout-flex_-_-webkit-flex-basis:  0.000000001px; --layout-flex_-_flex-basis:  0.000000001px;;
+
+      --layout-flex-2_-_-ms-flex:  2; --layout-flex-2_-_-webkit-flex:  2; --layout-flex-2_-_flex:  2;;
+
+      --layout-flex-3_-_-ms-flex:  3; --layout-flex-3_-_-webkit-flex:  3; --layout-flex-3_-_flex:  3;;
+
+      --layout-flex-4_-_-ms-flex:  4; --layout-flex-4_-_-webkit-flex:  4; --layout-flex-4_-_flex:  4;;
+
+      --layout-flex-5_-_-ms-flex:  5; --layout-flex-5_-_-webkit-flex:  5; --layout-flex-5_-_flex:  5;;
+
+      --layout-flex-6_-_-ms-flex:  6; --layout-flex-6_-_-webkit-flex:  6; --layout-flex-6_-_flex:  6;;
+
+      --layout-flex-7_-_-ms-flex:  7; --layout-flex-7_-_-webkit-flex:  7; --layout-flex-7_-_flex:  7;;
+
+      --layout-flex-8_-_-ms-flex:  8; --layout-flex-8_-_-webkit-flex:  8; --layout-flex-8_-_flex:  8;;
+
+      --layout-flex-9_-_-ms-flex:  9; --layout-flex-9_-_-webkit-flex:  9; --layout-flex-9_-_flex:  9;;
+
+      --layout-flex-10_-_-ms-flex:  10; --layout-flex-10_-_-webkit-flex:  10; --layout-flex-10_-_flex:  10;;
+
+      --layout-flex-11_-_-ms-flex:  11; --layout-flex-11_-_-webkit-flex:  11; --layout-flex-11_-_flex:  11;;
+
+      --layout-flex-12_-_-ms-flex:  12; --layout-flex-12_-_-webkit-flex:  12; --layout-flex-12_-_flex:  12;;
+
+      
+
+      --layout-start_-_-ms-flex-align:  start; --layout-start_-_-webkit-align-items:  flex-start; --layout-start_-_align-items:  flex-start;;
+
+      --layout-center_-_-ms-flex-align:  center; --layout-center_-_-webkit-align-items:  center; --layout-center_-_align-items:  center;;
+
+      --layout-end_-_-ms-flex-align:  end; --layout-end_-_-webkit-align-items:  flex-end; --layout-end_-_align-items:  flex-end;;
+
+      --layout-baseline_-_-ms-flex-align:  baseline; --layout-baseline_-_-webkit-align-items:  baseline; --layout-baseline_-_align-items:  baseline;;
+
+      
+
+      --layout-start-justified_-_-ms-flex-pack:  start; --layout-start-justified_-_-webkit-justify-content:  flex-start; --layout-start-justified_-_justify-content:  flex-start;;
+
+      --layout-center-justified_-_-ms-flex-pack:  center; --layout-center-justified_-_-webkit-justify-content:  center; --layout-center-justified_-_justify-content:  center;;
+
+      --layout-end-justified_-_-ms-flex-pack:  end; --layout-end-justified_-_-webkit-justify-content:  flex-end; --layout-end-justified_-_justify-content:  flex-end;;
+
+      --layout-around-justified_-_-ms-flex-pack:  distribute; --layout-around-justified_-_-webkit-justify-content:  space-around; --layout-around-justified_-_justify-content:  space-around;;
+
+      --layout-justified_-_-ms-flex-pack:  justify; --layout-justified_-_-webkit-justify-content:  space-between; --layout-justified_-_justify-content:  space-between;;
+
+      --layout-center-center_-_-ms-flex-align:  var(--layout-center_-_-ms-flex-align); --layout-center-center_-_-webkit-align-items:  var(--layout-center_-_-webkit-align-items); --layout-center-center_-_align-items:  var(--layout-center_-_align-items); --layout-center-center_-_-ms-flex-pack:  var(--layout-center-justified_-_-ms-flex-pack); --layout-center-center_-_-webkit-justify-content:  var(--layout-center-justified_-_-webkit-justify-content); --layout-center-center_-_justify-content:  var(--layout-center-justified_-_justify-content);;
+
+      
+
+      --layout-self-start_-_-ms-align-self:  flex-start; --layout-self-start_-_-webkit-align-self:  flex-start; --layout-self-start_-_align-self:  flex-start;;
+
+      --layout-self-center_-_-ms-align-self:  center; --layout-self-center_-_-webkit-align-self:  center; --layout-self-center_-_align-self:  center;;
+
+      --layout-self-end_-_-ms-align-self:  flex-end; --layout-self-end_-_-webkit-align-self:  flex-end; --layout-self-end_-_align-self:  flex-end;;
+
+      --layout-self-stretch_-_-ms-align-self:  stretch; --layout-self-stretch_-_-webkit-align-self:  stretch; --layout-self-stretch_-_align-self:  stretch;;
+
+      --layout-self-baseline_-_-ms-align-self:  baseline; --layout-self-baseline_-_-webkit-align-self:  baseline; --layout-self-baseline_-_align-self:  baseline;;
+
+      
+
+      --layout-start-aligned_-_-ms-flex-line-pack:  start; --layout-start-aligned_-_-ms-align-content:  flex-start; --layout-start-aligned_-_-webkit-align-content:  flex-start; --layout-start-aligned_-_align-content:  flex-start;;
+
+      --layout-end-aligned_-_-ms-flex-line-pack:  end; --layout-end-aligned_-_-ms-align-content:  flex-end; --layout-end-aligned_-_-webkit-align-content:  flex-end; --layout-end-aligned_-_align-content:  flex-end;;
+
+      --layout-center-aligned_-_-ms-flex-line-pack:  center; --layout-center-aligned_-_-ms-align-content:  center; --layout-center-aligned_-_-webkit-align-content:  center; --layout-center-aligned_-_align-content:  center;;
+
+      --layout-between-aligned_-_-ms-flex-line-pack:  justify; --layout-between-aligned_-_-ms-align-content:  space-between; --layout-between-aligned_-_-webkit-align-content:  space-between; --layout-between-aligned_-_align-content:  space-between;;
+
+      --layout-around-aligned_-_-ms-flex-line-pack:  distribute; --layout-around-aligned_-_-ms-align-content:  space-around; --layout-around-aligned_-_-webkit-align-content:  space-around; --layout-around-aligned_-_align-content:  space-around;;
+
+      
+
+      --layout-block_-_display:  block;;
+
+      --layout-invisible_-_visibility:  hidden !important;;
+
+      --layout-relative_-_position:  relative;;
+
+      --layout-fit_-_position:  absolute; --layout-fit_-_top:  0; --layout-fit_-_right:  0; --layout-fit_-_bottom:  0; --layout-fit_-_left:  0;;
+
+      --layout-scroll_-_-webkit-overflow-scrolling:  touch; --layout-scroll_-_overflow:  auto;;
+
+      --layout-fullbleed_-_margin:  0; --layout-fullbleed_-_height:  100vh;;
+
+      
+
+      --layout-fixed-top_-_position:  fixed; --layout-fixed-top_-_top:  0; --layout-fixed-top_-_left:  0; --layout-fixed-top_-_right:  0;;
+
+      --layout-fixed-right_-_position:  fixed; --layout-fixed-right_-_top:  0; --layout-fixed-right_-_right:  0; --layout-fixed-right_-_bottom:  0;;
+
+      --layout-fixed-bottom_-_position:  fixed; --layout-fixed-bottom_-_right:  0; --layout-fixed-bottom_-_bottom:  0; --layout-fixed-bottom_-_left:  0;;
+
+      --layout-fixed-left_-_position:  fixed; --layout-fixed-left_-_top:  0; --layout-fixed-left_-_bottom:  0; --layout-fixed-left_-_left:  0;;
+}
+
+</style>
+</custom-style><style>[hidden] { display: none !important; }</style><custom-style>
+  <style is="custom-style">html {
+  --google-red-100: #f4c7c3;
+      --google-red-300: #e67c73;
+      --google-red-500: #db4437;
+      --google-red-700: #c53929;
+
+      --google-blue-100: #c6dafc;
+      --google-blue-300: #7baaf7;
+      --google-blue-500: #4285f4;
+      --google-blue-700: #3367d6;
+
+      --google-green-100: #b7e1cd;
+      --google-green-300: #57bb8a;
+      --google-green-500: #0f9d58;
+      --google-green-700: #0b8043;
+
+      --google-yellow-100: #fce8b2;
+      --google-yellow-300: #f7cb4d;
+      --google-yellow-500: #f4b400;
+      --google-yellow-700: #f09300;
+
+      --google-grey-100: #f5f5f5;
+      --google-grey-300: #e0e0e0;
+      --google-grey-500: #9e9e9e;
+      --google-grey-700: #616161;
+
+      
+
+      --paper-red-50: #ffebee;
+      --paper-red-100: #ffcdd2;
+      --paper-red-200: #ef9a9a;
+      --paper-red-300: #e57373;
+      --paper-red-400: #ef5350;
+      --paper-red-500: #f44336;
+      --paper-red-600: #e53935;
+      --paper-red-700: #d32f2f;
+      --paper-red-800: #c62828;
+      --paper-red-900: #b71c1c;
+      --paper-red-a100: #ff8a80;
+      --paper-red-a200: #ff5252;
+      --paper-red-a400: #ff1744;
+      --paper-red-a700: #d50000;
+
+      --paper-pink-50: #fce4ec;
+      --paper-pink-100: #f8bbd0;
+      --paper-pink-200: #f48fb1;
+      --paper-pink-300: #f06292;
+      --paper-pink-400: #ec407a;
+      --paper-pink-500: #e91e63;
+      --paper-pink-600: #d81b60;
+      --paper-pink-700: #c2185b;
+      --paper-pink-800: #ad1457;
+      --paper-pink-900: #880e4f;
+      --paper-pink-a100: #ff80ab;
+      --paper-pink-a200: #ff4081;
+      --paper-pink-a400: #f50057;
+      --paper-pink-a700: #c51162;
+
+      --paper-purple-50: #f3e5f5;
+      --paper-purple-100: #e1bee7;
+      --paper-purple-200: #ce93d8;
+      --paper-purple-300: #ba68c8;
+      --paper-purple-400: #ab47bc;
+      --paper-purple-500: #9c27b0;
+      --paper-purple-600: #8e24aa;
+      --paper-purple-700: #7b1fa2;
+      --paper-purple-800: #6a1b9a;
+      --paper-purple-900: #4a148c;
+      --paper-purple-a100: #ea80fc;
+      --paper-purple-a200: #e040fb;
+      --paper-purple-a400: #d500f9;
+      --paper-purple-a700: #aa00ff;
+
+      --paper-deep-purple-50: #ede7f6;
+      --paper-deep-purple-100: #d1c4e9;
+      --paper-deep-purple-200: #b39ddb;
+      --paper-deep-purple-300: #9575cd;
+      --paper-deep-purple-400: #7e57c2;
+      --paper-deep-purple-500: #673ab7;
+      --paper-deep-purple-600: #5e35b1;
+      --paper-deep-purple-700: #512da8;
+      --paper-deep-purple-800: #4527a0;
+      --paper-deep-purple-900: #311b92;
+      --paper-deep-purple-a100: #b388ff;
+      --paper-deep-purple-a200: #7c4dff;
+      --paper-deep-purple-a400: #651fff;
+      --paper-deep-purple-a700: #6200ea;
+
+      --paper-indigo-50: #e8eaf6;
+      --paper-indigo-100: #c5cae9;
+      --paper-indigo-200: #9fa8da;
+      --paper-indigo-300: #7986cb;
+      --paper-indigo-400: #5c6bc0;
+      --paper-indigo-500: #3f51b5;
+      --paper-indigo-600: #3949ab;
+      --paper-indigo-700: #303f9f;
+      --paper-indigo-800: #283593;
+      --paper-indigo-900: #1a237e;
+      --paper-indigo-a100: #8c9eff;
+      --paper-indigo-a200: #536dfe;
+      --paper-indigo-a400: #3d5afe;
+      --paper-indigo-a700: #304ffe;
+
+      --paper-blue-50: #e3f2fd;
+      --paper-blue-100: #bbdefb;
+      --paper-blue-200: #90caf9;
+      --paper-blue-300: #64b5f6;
+      --paper-blue-400: #42a5f5;
+      --paper-blue-500: #2196f3;
+      --paper-blue-600: #1e88e5;
+      --paper-blue-700: #1976d2;
+      --paper-blue-800: #1565c0;
+      --paper-blue-900: #0d47a1;
+      --paper-blue-a100: #82b1ff;
+      --paper-blue-a200: #448aff;
+      --paper-blue-a400: #2979ff;
+      --paper-blue-a700: #2962ff;
+
+      --paper-light-blue-50: #e1f5fe;
+      --paper-light-blue-100: #b3e5fc;
+      --paper-light-blue-200: #81d4fa;
+      --paper-light-blue-300: #4fc3f7;
+      --paper-light-blue-400: #29b6f6;
+      --paper-light-blue-500: #03a9f4;
+      --paper-light-blue-600: #039be5;
+      --paper-light-blue-700: #0288d1;
+      --paper-light-blue-800: #0277bd;
+      --paper-light-blue-900: #01579b;
+      --paper-light-blue-a100: #80d8ff;
+      --paper-light-blue-a200: #40c4ff;
+      --paper-light-blue-a400: #00b0ff;
+      --paper-light-blue-a700: #0091ea;
+
+      --paper-cyan-50: #e0f7fa;
+      --paper-cyan-100: #b2ebf2;
+      --paper-cyan-200: #80deea;
+      --paper-cyan-300: #4dd0e1;
+      --paper-cyan-400: #26c6da;
+      --paper-cyan-500: #00bcd4;
+      --paper-cyan-600: #00acc1;
+      --paper-cyan-700: #0097a7;
+      --paper-cyan-800: #00838f;
+      --paper-cyan-900: #006064;
+      --paper-cyan-a100: #84ffff;
+      --paper-cyan-a200: #18ffff;
+      --paper-cyan-a400: #00e5ff;
+      --paper-cyan-a700: #00b8d4;
+
+      --paper-teal-50: #e0f2f1;
+      --paper-teal-100: #b2dfdb;
+      --paper-teal-200: #80cbc4;
+      --paper-teal-300: #4db6ac;
+      --paper-teal-400: #26a69a;
+      --paper-teal-500: #009688;
+      --paper-teal-600: #00897b;
+      --paper-teal-700: #00796b;
+      --paper-teal-800: #00695c;
+      --paper-teal-900: #004d40;
+      --paper-teal-a100: #a7ffeb;
+      --paper-teal-a200: #64ffda;
+      --paper-teal-a400: #1de9b6;
+      --paper-teal-a700: #00bfa5;
+
+      --paper-green-50: #e8f5e9;
+      --paper-green-100: #c8e6c9;
+      --paper-green-200: #a5d6a7;
+      --paper-green-300: #81c784;
+      --paper-green-400: #66bb6a;
+      --paper-green-500: #4caf50;
+      --paper-green-600: #43a047;
+      --paper-green-700: #388e3c;
+      --paper-green-800: #2e7d32;
+      --paper-green-900: #1b5e20;
+      --paper-green-a100: #b9f6ca;
+      --paper-green-a200: #69f0ae;
+      --paper-green-a400: #00e676;
+      --paper-green-a700: #00c853;
+
+      --paper-light-green-50: #f1f8e9;
+      --paper-light-green-100: #dcedc8;
+      --paper-light-green-200: #c5e1a5;
+      --paper-light-green-300: #aed581;
+      --paper-light-green-400: #9ccc65;
+      --paper-light-green-500: #8bc34a;
+      --paper-light-green-600: #7cb342;
+      --paper-light-green-700: #689f38;
+      --paper-light-green-800: #558b2f;
+      --paper-light-green-900: #33691e;
+      --paper-light-green-a100: #ccff90;
+      --paper-light-green-a200: #b2ff59;
+      --paper-light-green-a400: #76ff03;
+      --paper-light-green-a700: #64dd17;
+
+      --paper-lime-50: #f9fbe7;
+      --paper-lime-100: #f0f4c3;
+      --paper-lime-200: #e6ee9c;
+      --paper-lime-300: #dce775;
+      --paper-lime-400: #d4e157;
+      --paper-lime-500: #cddc39;
+      --paper-lime-600: #c0ca33;
+      --paper-lime-700: #afb42b;
+      --paper-lime-800: #9e9d24;
+      --paper-lime-900: #827717;
+      --paper-lime-a100: #f4ff81;
+      --paper-lime-a200: #eeff41;
+      --paper-lime-a400: #c6ff00;
+      --paper-lime-a700: #aeea00;
+
+      --paper-yellow-50: #fffde7;
+      --paper-yellow-100: #fff9c4;
+      --paper-yellow-200: #fff59d;
+      --paper-yellow-300: #fff176;
+      --paper-yellow-400: #ffee58;
+      --paper-yellow-500: #ffeb3b;
+      --paper-yellow-600: #fdd835;
+      --paper-yellow-700: #fbc02d;
+      --paper-yellow-800: #f9a825;
+      --paper-yellow-900: #f57f17;
+      --paper-yellow-a100: #ffff8d;
+      --paper-yellow-a200: #ffff00;
+      --paper-yellow-a400: #ffea00;
+      --paper-yellow-a700: #ffd600;
+
+      --paper-amber-50: #fff8e1;
+      --paper-amber-100: #ffecb3;
+      --paper-amber-200: #ffe082;
+      --paper-amber-300: #ffd54f;
+      --paper-amber-400: #ffca28;
+      --paper-amber-500: #ffc107;
+      --paper-amber-600: #ffb300;
+      --paper-amber-700: #ffa000;
+      --paper-amber-800: #ff8f00;
+      --paper-amber-900: #ff6f00;
+      --paper-amber-a100: #ffe57f;
+      --paper-amber-a200: #ffd740;
+      --paper-amber-a400: #ffc400;
+      --paper-amber-a700: #ffab00;
+
+      --paper-orange-50: #fff3e0;
+      --paper-orange-100: #ffe0b2;
+      --paper-orange-200: #ffcc80;
+      --paper-orange-300: #ffb74d;
+      --paper-orange-400: #ffa726;
+      --paper-orange-500: #ff9800;
+      --paper-orange-600: #fb8c00;
+      --paper-orange-700: #f57c00;
+      --paper-orange-800: #ef6c00;
+      --paper-orange-900: #e65100;
+      --paper-orange-a100: #ffd180;
+      --paper-orange-a200: #ffab40;
+      --paper-orange-a400: #ff9100;
+      --paper-orange-a700: #ff6500;
+
+      --paper-deep-orange-50: #fbe9e7;
+      --paper-deep-orange-100: #ffccbc;
+      --paper-deep-orange-200: #ffab91;
+      --paper-deep-orange-300: #ff8a65;
+      --paper-deep-orange-400: #ff7043;
+      --paper-deep-orange-500: #ff5722;
+      --paper-deep-orange-600: #f4511e;
+      --paper-deep-orange-700: #e64a19;
+      --paper-deep-orange-800: #d84315;
+      --paper-deep-orange-900: #bf360c;
+      --paper-deep-orange-a100: #ff9e80;
+      --paper-deep-orange-a200: #ff6e40;
+      --paper-deep-orange-a400: #ff3d00;
+      --paper-deep-orange-a700: #dd2c00;
+
+      --paper-brown-50: #efebe9;
+      --paper-brown-100: #d7ccc8;
+      --paper-brown-200: #bcaaa4;
+      --paper-brown-300: #a1887f;
+      --paper-brown-400: #8d6e63;
+      --paper-brown-500: #795548;
+      --paper-brown-600: #6d4c41;
+      --paper-brown-700: #5d4037;
+      --paper-brown-800: #4e342e;
+      --paper-brown-900: #3e2723;
+
+      --paper-grey-50: #fafafa;
+      --paper-grey-100: #f5f5f5;
+      --paper-grey-200: #eeeeee;
+      --paper-grey-300: #e0e0e0;
+      --paper-grey-400: #bdbdbd;
+      --paper-grey-500: #9e9e9e;
+      --paper-grey-600: #757575;
+      --paper-grey-700: #616161;
+      --paper-grey-800: #424242;
+      --paper-grey-900: #212121;
+
+      --paper-blue-grey-50: #eceff1;
+      --paper-blue-grey-100: #cfd8dc;
+      --paper-blue-grey-200: #b0bec5;
+      --paper-blue-grey-300: #90a4ae;
+      --paper-blue-grey-400: #78909c;
+      --paper-blue-grey-500: #607d8b;
+      --paper-blue-grey-600: #546e7a;
+      --paper-blue-grey-700: #455a64;
+      --paper-blue-grey-800: #37474f;
+      --paper-blue-grey-900: #263238;
+
+      
+      --dark-divider-opacity: 0.12;
+      --dark-disabled-opacity: 0.38; 
+      --dark-secondary-opacity: 0.54;
+      --dark-primary-opacity: 0.87;
+
+      
+      --light-divider-opacity: 0.12;
+      --light-disabled-opacity: 0.3; 
+      --light-secondary-opacity: 0.7;
+      --light-primary-opacity: 1.0;
+}
+
+</style>
+</custom-style><custom-style>
+  <style is="custom-style">html {
+  --primary-text-color: var(--light-theme-text-color);
+      --primary-background-color: var(--light-theme-background-color);
+      --secondary-text-color: var(--light-theme-secondary-color);
+      --disabled-text-color: var(--light-theme-disabled-color);
+      --divider-color: var(--light-theme-divider-color);
+      --error-color: var(--paper-deep-orange-a700);
+
+      
+      --primary-color: var(--paper-indigo-500);
+      --light-primary-color: var(--paper-indigo-100);
+      --dark-primary-color: var(--paper-indigo-700);
+
+      --accent-color: var(--paper-pink-a200);
+      --light-accent-color: var(--paper-pink-a100);
+      --dark-accent-color: var(--paper-pink-a400);
+
+
+      
+      --light-theme-background-color: #ffffff;
+      --light-theme-base-color: #000000;
+      --light-theme-text-color: var(--paper-grey-900);
+      --light-theme-secondary-color: #737373;  
+      --light-theme-disabled-color: #9b9b9b;  
+      --light-theme-divider-color: #dbdbdb;
+
+      
+      --dark-theme-background-color: var(--paper-grey-900);
+      --dark-theme-base-color: #ffffff;
+      --dark-theme-text-color: #ffffff;
+      --dark-theme-secondary-color: #bcbcbc;  
+      --dark-theme-disabled-color: #646464;  
+      --dark-theme-divider-color: #3c3c3c;
+
+      
+      --text-primary-color: var(--dark-theme-text-color);
+      --default-primary-color: var(--primary-color);
+}
+
+</style>
+</custom-style><script async="" src="./Introducing Git _ Google Cloud Skills Boost_files/lazy.min.js.download"></script><script src="./Introducing Git _ Google Cloud Skills Boost_files/loader.js.download"></script>
+<script src="./Introducing Git _ Google Cloud Skills Boost_files/api.js.download"></script>
+<script id="ze-snippet" src="./Introducing Git _ Google Cloud Skills Boost_files/snippet.js.download"></script>
+
+
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="PS1ymn9qEU4XEEz0iO2GL/3eivtU4kiMjXM0lsbE8uZfsFClq25WzHMREntwtRrzjXm9FX3EVJ3zhuIiAiQxWw==">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="1rRsY0INj8RvwB5EF5pwdxt2A2P9aDgAlsICaJ0d5w0" name="google-site-verification">
+<meta content="#3681E4" property="msapplication-TileColor">
+<meta content="/favicon-144.png" property="msapplication-TileImage">
+<meta content="{&quot;userId&quot;:47928032,&quot;experimentIds&quot;:[&quot;course_monetization&quot;,&quot;chat_off_for_signed_out_users&quot;,&quot;one_tap&quot;,&quot;agressive_monsoon_quota&quot;,&quot;alexandria_subscriptions_pagination&quot;,&quot;catalog_filters_button&quot;,&quot;content_provider_admin&quot;,&quot;alexandria_show_bundle_errors&quot;,&quot;innovator_membership&quot;,&quot;new_report_fields&quot;,&quot;ai_skills&quot;,&quot;show_interview_warmup&quot;,&quot;cache_explore_page_result&quot;,&quot;learning_plan_search&quot;,&quot;search_autocomplete&quot;,&quot;hide_unpopular_filters&quot;,&quot;canonical_domain_redirect&quot;,&quot;onramp&quot;,&quot;innovator_membership_modal&quot;,&quot;monsoon_quota&quot;,&quot;credly_integration_announcement_modal&quot;,&quot;program_announcements&quot;,&quot;oauth_risc_shutoff&quot;,&quot;landing_page&quot;,&quot;search_updates&quot;,&quot;rise_poc&quot;,&quot;show_annual_purchase_now&quot;,&quot;iw_ai_assistant&quot;,&quot;teams&quot;,&quot;dedup_badge&quot;,&quot;tell_navy_allowed_zones&quot;,&quot;guest_user&quot;,&quot;reroute_new_interview_warmup&quot;,&quot;credly&quot;,&quot;gcsbo_free&quot;,&quot;used_in&quot;,&quot;hide_price&quot;,&quot;entity_api_keys&quot;]}" name="help-api-product-data">
+<meta content="{&quot;groupIds&quot;:[&quot;non_suadmins&quot;,&quot;students&quot;,&quot;non_organization&quot;,&quot;non_program&quot;]}" name="help-api-custom-data">
+<meta content="This lab has instructions to install Git, configure Git user information, create a local Git repository, add a file to the repository, and do some basic operations like adding a file, editing files, and making commits." name="description">
+<meta content="Qwiklabs" name="author">
+<meta content="Introducing Git | Google Cloud Skills Boost" property="og:title">
+<meta content="website" property="og:type">
+<meta content="/favicon-144.png" property="og:image">
+<meta content="Qwiklabs" property="og:site_name">
+<meta content="This lab has instructions to install Git, configure Git user information, create a local Git repository, add a file to the repository, and do some basic operations like adding a file, editing files, and making commits." property="og:description">
+<meta content="/qwiklabs_logo_900x887.png" property="og:logo" size="900x887">
+<meta content="/qwiklabs_logo_994x187.png" property="og:logo" size="994x187">
+
+
+<meta property="og:url" content="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session"><link href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session" rel="canonical">
+<link href="https://cdn.qwiklabs.com/X46FrQX4iLxHW5MxL8jICvgZM0evMEKscCeQO%2BazGdo%3D" rel="shortcut icon" type="image/x-icon">
+
+
+<link rel="stylesheet" href="./Introducing Git _ Google Cloud Skills Boost_files/css" media="screen">
+
+<link rel="stylesheet" href="./Introducing Git _ Google Cloud Skills Boost_files/application-e342c2249dcb9b45cec85c2ed1c13a596dc3fbb1.css" media="all">
+<link rel="stylesheet" href="./Introducing Git _ Google Cloud Skills Boost_files/cookienotificationbar.min.css" media="screen">
+
+
+<style>
+  :root {
+    --primary-text-on-surface-color: #1c3ee9;
+    --primary-text-on-surface-color-dark: #1536d9;
+    --primary-text-on-surface-color-darker: #1330c4;
+    --primary-text-on-surface-color-darkest: #112baf;
+    --primary-surface-color: #1a73e8;
+    --primary-surface-color-rgb: 26,115,232;
+    --primary-surface-color-light: #d1e3fa;
+    --primary-surface-color-lightest: #e8f1fd;
+    --text-on-primary-color: #ffffff;
+    --accent-text-on-surface-color: #f000e8;
+    --accent-surface-color: #f9ab00;
+    --accent-surface-color-rgb: 249,171,0;
+    --accent-surface-color-light: #ffefcc;
+    --text-on-accent-color: #202124;
+  }
+</style>
+
+
+
+</head>
+<body class="lab-show l-full no-nav application-new focuses focuses-show lab-show l-full no-nav ">
+<div class="header-container light-theme">
+<div class="header">
+<ql-toolbar jumpenabled=""><template shadowrootmode="open"><!---->
+      <!--?lit$729167062$-->
+      <div class=" jump-container ">
+        <ql-button hairline="" class="jump-to-content" href="#jump-content"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#jump-content" class=" mdc-button mdc-button--outlined gm-button-hairline gm-hairline-text-label-button ql-button default ">
+        <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$--><slot></slot> </span> 
+    
+      </a>
+     <!--?lit$729167062$--> </template>
+          <!--?lit$729167062$-->Jump to content
+        </ql-button>
+      </div>
+    
+      <span class="navigation">
+        <slot name="navigation"></slot>
+      </span>
+      <span class="title">
+        <slot name="title"></slot>
+      </span>
+      <span class="tabs">
+        <slot name="tabs"></slot>
+      </span>
+      <span class="actions">
+        <slot name="action"></slot>
+      </span>
+    </template>
+<div class="header__title" slot="title">
+<ql-icon-button label="Back" href="https://www.cloudskillsboost.google/i_accept_tandc" id="bb451754d0a62035" tip="Back"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/i_accept_tandc" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Back">
+        <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+      </a>
+     <!--?lit$729167062$--> </template>arrow_back</ql-icon-button>
+<h1 class="ql-title-medium">Introducing Git</h1>
+</div>
+<div class="header__actions" slot="action">
+
+<ql-icon-button id="control-panel-target" style="display: block;"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-busy="false" aria-label="dashboard" aria-haspopup="true" aria-controls="control-panel-menu">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+dashboard
+</ql-icon-button>
+<ql-menu for="control-panel-target" id="control-panel-menu" aria-hidden="true" style="left: -1000px; top: -1000px; opacity: 0; visibility: hidden;" role="menu" aria-labelledby="control-panel-target" tabindex="-1"><template shadowrootmode="open"><!---->
+      <ql-card elevation="3"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+        <slot></slot>
+      </ql-card>
+    </template><ql-lab-control-panel class="ql-lab-control-panel__max-height control-panel js-lab-control-panel onramp" connectionfiles="[]" labcontrolbutton="{&quot;disabled&quot;:false,&quot;pending&quot;:false,&quot;running&quot;:false}" labdetails="[]" labtimer="{&quot;ticking&quot;:false,&quot;secondsRemaining&quot;:5400}" studentresources="[]"><template shadowrootmode="open"><!---->
+      <div class="control-panel-container control-panel-container--no-shrink">
+        <!--?lit$729167062$-->
+        <div class="control-panel-section control-panel-section--2up">
+          <!--?lit$729167062$-->
+      <ql-lab-control-button id="lab-control-button"><template shadowrootmode="open"><!---->
+      <ql-button><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class="mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button negative" aria-expanded="true" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        <!--?lit$729167062$-->End Lab
+      </ql-button>
+    </template>
+      </ql-lab-control-button>
+     <!--?lit$729167062$-->
+      <ql-lab-timer id="lab-timer"><template shadowrootmode="open"><!---->
+        <ql-timer><template shadowrootmode="open"><!---->
+      <span aria-atomic="true" role="timer" class=" timer hhmmss " datetime="PT1H24M7S">
+        <time><!--?lit$729167062$-->01:24:07</time>
+      </span>
+    </template>
+        </ql-timer>
+      </template>
+      </ql-lab-timer>
+    
+        </div>
+      
+        <slot name="recaptcha"></slot>
+      </div>
+      <div class="control-panel-container">
+        <!--?lit$729167062$-->
+        <!--?lit$729167062$-->
+      <div class="control-panel-section">
+        <!--?lit$729167062$-->
+      <p class="do-not-deviate-warning">
+        <strong><!--?lit$729167062$-->Caution:</strong>
+        <!--?lit$729167062$-->When you are in the console, do not deviate from the lab instructions. Doing so may cause your account to be blocked.
+
+        <ql-help context="learn-more-account-blocked"><template shadowrootmode="open"><!---->
+      <slot>
+        <ql-icon-button><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Help" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$-->help
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        </ql-icon-button>
+      </slot>
+    </template>
+          <a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#" onclick="return false;" title="Learn more.">
+            <!--?lit$729167062$-->Learn more.
+          </a>
+        </ql-help>
+      </p>
+     <!--?lit$729167062$-->
+        <!--?lit$729167062$-->
+      </div>
+    
+      </div>
+      <!--?lit$729167062$-->
+    </template>
+<script src="./Introducing Git _ Google Cloud Skills Boost_files/api(1).js.download"></script>
+        <script>
+          // Define function so that we can call it again later if we need to reset it
+          // This executes reCAPTCHA and then calls our callback.
+          function executeRecaptchaForStartLab() {
+            grecaptcha.ready(function() {
+              grecaptcha.execute('6LeVI8IUAAAAAJNdox5eTkYrw9SbvhZ1TFyv3iHr', {action: 'start_lab'}).then(function(token) {
+                setInputWithRecaptchaResponseTokenForStartLab('g-recaptcha-response-data-start-lab', token)
+              });
+            });
+          };
+          // Invoke immediately
+          executeRecaptchaForStartLab()
+
+          // Async variant so you can await this function from another async function (no need for
+          // an explicit callback function then!)
+          // Returns a Promise that resolves with the response token.
+          async function executeRecaptchaForStartLabAsync() {
+            return new Promise((resolve, reject) => {
+             grecaptcha.ready(async function() {
+                resolve(await grecaptcha.execute('6LeVI8IUAAAAAJNdox5eTkYrw9SbvhZ1TFyv3iHr', {action: 'start_lab'}))
+              });
+            })
+          };
+
+                  var setInputWithRecaptchaResponseTokenForStartLab = function(id, token) {
+          var element = document.getElementById(id);
+          if (element !== null) element.value = token;
+        }
+
+        </script>
+<input type="hidden" name="g-recaptcha-response-data[start_lab]" id="g-recaptcha-response-data-start-lab" data-sitekey="6LeVI8IUAAAAAJNdox5eTkYrw9SbvhZ1TFyv3iHr" class="g-recaptcha g-recaptcha-response " value="03AFcWeA6MrNipAeOuGx2iQqXOHf7b53XBdrp4xWRtJsqUEzDR4SiLINMg8mK3aPQLD5ZwnmDIQugYjCm9TmNcdzEMbm94u6G-GaKtSI70BzlA7rF_2V_IgA3tnyO2dR7AKS1HIeRwVtf1jcF1TJtgxYk6kDoshon4wvVi9BolcgbKNjQpJfZlMECkz79tfuCVrM8RtWnT2qWXkvbA-hlJWwtcdsR1qA8tYOGPINZw8W0h2SidrEY1xQ-iMrx66gGSy62ghHvuZaOVEcz9myST0Q9N-qf36mMY7qm6PMtKefmQcSW3r1EQtvOPPALvVjcDJJxpqNgIVVREyT4LMhS18Lz38mkd4NrKHReP6gTdtQq5cD-LyDULPn9_LavxK_Qmg9fWHto_4h-DwE1ULNgkV1NZLKovhzVMD7OxPawwaL_DZ521DeUqpfXJ5Avb_9A0FsR-63rvmoobidi61WAOZIWyqMskSPe5_LlmfLk_KqWWrJEH9EYSEcrqmwFWPREEeJZXWBodHziM45i4F6iLMuQPyvnAbFrwbJn7VvkqjigKFFqckFCmQlMXEYB8UKNFvPy7v2ooBwFyudtIZDJQAPwpUi2IxSZu9DggzaBPc_Sm10LCHKY9YqyUUcMpqVg7fqKEmc2pU6GZRhP-FQF5E5CwFxpwr8HO4BgeRtuoWxaoz2IiRCwsI3Xmq7J0xfHrMr8AcBXUJmwXNv7a7geMw13Yz0DE0WxpimFDRo-pI8fAt5UMIU4f53IXMmb1v-rK4yxtm06LsmN414vuyGAvFztscZzRrJ_TMJBpBvgKRHeMZFZ9pnvXEzPpRtdB3ZGQZtgPCjsJr0o6Dlpu7smnpwb5KlxXFXEcO-PP7luV3CM5MVdHh5EkdgThJDFKOAOfAgr1DOjEEek-YuUE46I3FD-Dzjv0JyTmc0KqEuBXXqwGA4prJ3eqGP61sRjM6KXjO7awZGePOAQzne-rFEuzVXMj5Gb9i0nJosyrbKgCZaeBHRYTGuGz3Sg46FS0x--8WkTgXJp7PROLC72u5D16KnQEGDzhYrdmBRAMRKv5eGhIQbYZk8AKHUiEDK5pWBSX4dCfTBxUArrhllLd18DhKNipQrBIIHPKVzhQANt4ewD0REwx5XBhMlFRfHBPTCqUweBn32eRYIp67T49963c2pQxeDihnjNmcRFLZIzdP5Wlt9ix4NQ4aoe3Q-0pp9If3uLVwdkAjxOawOGgTTZpc6qwUfS50LsvoYfRCK-UlZT2I6wONQtvcA9znoxEKJla17Zr_lWtD26fDrHXUY7ouwF4j3zEH-joKvR92k1df4FnmJXSOYnbkv7vYf0dfUgbBrWPnAEGVisJcpxgEWkmME5iSfk4WjO2CNgzCuygYO1rgt3Th_7gCPCO4FtpCiHTs02SrPbTW4uNx539cG7X78ocKfK66-A1RsJTkx-po7y_aWUPl-3J_K-zcaNwCuiJE-p5COugYUD-V4CNdWtvHdh3j0rnBih9WSmpkrLg9c3_jhoLRfQziCu2K7w9I9OqmyLB5zJqSGHLFh8i9X282eKjrAW0lIP4rjICtr4DD9sa1dJrWdQlz38vvz8VyykHr1LlaBtOBexfF2C_Vsgfx2fPjbk7jOOHm8dKjDvCUibEs-AN0yQ0SXTKvU2gUJm-XP8l5tXQBFBLq84dmgFUuU2spkYm8u9vyrD_kwpIVgbx4CfAQEqeFyzVcb3HQ2Fo4fCW-W_OSpUVDeIAAgWbB_waW6vDLrEqZZEL7uLds2fXmWTPHez3_L5mhF7fjdP4TUSwVLqv2V7w_MuxEqhlF3igOjG9vRZaEvkgqxVbXnNPiuKZMNHTTUZm-_5PJ4BEp36nLCkfqU726bpzFoe5d-WloPrgINJS_lucWxZiRIF_3O24wjAAW-yODcitLhn03srEDlq-wNf6qtvVEeTuuk8Okdja3veZy73-p955BoLT2MYvm663eZEpGJuCOvRVXgZBviPouA0xRLalaCqwTSirPz176h67tg" style=""><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-6q9tc4u1xgnt" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./Introducing Git _ Google Cloud Skills Boost_files/anchor.html"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></input>
+
+<div aria-live="polite" class="hidden" id="recaptcha-v2-start-lab" slot="recaptcha">
+<script src="./Introducing Git _ Google Cloud Skills Boost_files/api(2).js.download" async="" defer=""></script>
+<div data-sitekey="6LeOI8IUAAAAAPkHlMAE9NReCD_1WD81iYlBlCnV" data-callback="recaptchaComplete" data-expired-callback="expireV2Token" class="g-recaptcha "><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-j0l3b29yr92h" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./Introducing Git _ Google Cloud Skills Boost_files/anchor(1).html"></iframe></div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./Introducing Git _ Google Cloud Skills Boost_files/saved_resource.html"></iframe></div>
+          <noscript>
+            <div>
+              <div style="width: 302px; height: 422px; position: relative;">
+                <div style="width: 302px; height: 422px; position: absolute;">
+                  <iframe
+                    src="https://www.recaptcha.net/recaptcha/api/fallback?k=6LeOI8IUAAAAAPkHlMAE9NReCD_1WD81iYlBlCnV"
+                    name="ReCAPTCHA"
+                    style="width: 302px; height: 422px; border-style: none; border: 0; overflow: hidden;">
+                  </iframe>
+                </div>
+              </div>
+              <div style="width: 300px; height: 60px; border-style: none;
+                bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px;
+                background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
+                  margin: 10px 25px; padding: 0px; resize: none;">
+                </textarea>
+              </div>
+            </div>
+          </noscript>
+
+</div>
+</ql-lab-control-panel></ql-menu>
+<ql-icon-button class="mobile-hide" icon="help_outline" id="help-menu-button" label="Open help menu" tip="Help"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Open help menu" aria-busy="false" aria-haspopup="true" aria-controls="help-menu">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$-->help_outline
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-icon-button>
+<ql-menu for="help-menu-button" id="help-menu" tabindex="-1" aria-hidden="true" style="left: -1000px; top: -1000px; opacity: 0; visibility: hidden;" role="menu" aria-labelledby="help-menu-button"><template shadowrootmode="open"><!---->
+      <ql-card elevation="3"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+        <slot></slot>
+      </ql-card>
+    </template>
+<ql-menu-item data-analytics-action="opened_help" data-analytics-label="lab" label="Help Center" onclick="hallofmirrors.helpService.startHelp({&quot;productData&quot;:{&quot;userId&quot;:47928032},&quot;context&quot;:&quot;lab&quot;})"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" menu-item " role="menuitem" aria-label="Help Center" aria-busy="false">
+          <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->Help Center<!--?-->
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item href="mailto:support@qwiklabs.com" label="Email support"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="mailto:support@qwiklabs.com" role="menuitem" class=" menu-item " aria-label="Email support">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->Email support<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item label="Chat support" onclick="ql.chat.open()"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" menu-item " role="menuitem" aria-label="Chat support" aria-busy="false">
+          <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->Chat support<!--?-->
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item href="https://reportingwidget.google.com/widget/54?cid=1&amp;url=https://www.cloudskillsboost.google/focuses/38285276?" label="Report Illegal Content"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://reportingwidget.google.com/widget/54?cid=1&amp;url=https://www.cloudskillsboost.google/focuses/38285276?" role="menuitem" class=" menu-item " aria-label="Report Illegal Content">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->Report Illegal Content<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+</ql-menu>
+
+<ql-icon-button class="mobile-hide" icon="language" id="language" label="Select your language preference" tip="Language"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Select your language preference" aria-busy="false" aria-haspopup="true" aria-controls="">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$-->language
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-icon-button>
+<ql-menu for="language" tabindex="-1" aria-hidden="true" style="left: -1000px; top: -1000px; opacity: 0; visibility: hidden;" role="menu" aria-labelledby="language"><template shadowrootmode="open"><!---->
+      <ql-card elevation="3"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+        <slot></slot>
+      </ql-card>
+    </template>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="ar" href="/focuses/38285276?locale=ar&amp;parent=lti_session" label="العربية‬‎" lang="ar"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=ar&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="العربية‬‎">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->العربية‬‎<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="de" href="/focuses/38285276?locale=de&amp;parent=lti_session" label="Deutsch" lang="de"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=de&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="Deutsch">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->Deutsch<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="en" href="/focuses/38285276?locale=en&amp;parent=lti_session" label="English" lang="en"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=en&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="English">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->English<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="es" href="/focuses/38285276?locale=es&amp;parent=lti_session" label="español (Latinoamérica)" lang="es"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=es&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="español (Latinoamérica)">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->español (Latinoamérica)<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="fr" href="/focuses/38285276?locale=fr&amp;parent=lti_session" label="français" lang="fr"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=fr&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="français">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->français<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="fr_CA" href="/focuses/38285276?locale=fr_CA&amp;parent=lti_session" label="français (Canada)" lang="fr-CA"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=fr_CA&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="français (Canada)">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->français (Canada)<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="he" href="/focuses/38285276?locale=he&amp;parent=lti_session" label="עברית" lang="he"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=he&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="עברית">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->עברית<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="id" href="/focuses/38285276?locale=id&amp;parent=lti_session" label="bahasa Indonesia" lang="id"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=id&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="bahasa Indonesia">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->bahasa Indonesia<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="it" href="/focuses/38285276?locale=it&amp;parent=lti_session" label="italiano" lang="it"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=it&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="italiano">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->italiano<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="ja" href="/focuses/38285276?locale=ja&amp;parent=lti_session" label="日本語" lang="ja"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=ja&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="日本語">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->日本語<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="ko" href="/focuses/38285276?locale=ko&amp;parent=lti_session" label="한국어" lang="ko"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=ko&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="한국어">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->한국어<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="pl" href="/focuses/38285276?locale=pl&amp;parent=lti_session" label="polski" lang="pl"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=pl&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="polski">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->polski<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="pt_BR" href="/focuses/38285276?locale=pt_BR&amp;parent=lti_session" label="português (Brasil)" lang="pt-BR"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=pt_BR&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="português (Brasil)">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->português (Brasil)<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="pt_PT" href="/focuses/38285276?locale=pt_PT&amp;parent=lti_session" label="português (Portugal)" lang="pt-PT"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=pt_PT&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="português (Portugal)">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->português (Portugal)<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="ru" href="/focuses/38285276?locale=ru&amp;parent=lti_session" label="русский" lang="ru"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=ru&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="русский">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->русский<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="tr" href="/focuses/38285276?locale=tr&amp;parent=lti_session" label="Türkçe" lang="tr"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=tr&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="Türkçe">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->Türkçe<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="uk" href="/focuses/38285276?locale=uk&amp;parent=lti_session" label="українська" lang="uk"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=uk&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="українська">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->українська<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="zh" href="/focuses/38285276?locale=zh&amp;parent=lti_session" label="简体中文" lang="zh"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=zh&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="简体中文">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->简体中文<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="zh_TW" href="/focuses/38285276?locale=zh_TW&amp;parent=lti_session" label="繁體中文" lang="zh-TW"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276?locale=zh_TW&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="繁體中文">
+        <!--?lit$729167062$--><!--?lit$729167062$--> <!--?lit$729167062$-->繁體中文<!--?-->
+      </a>
+     <!--?lit$729167062$--> </template></ql-menu-item>
+</ql-menu>
+
+<ql-user-points leaderboardhref="/profile/leaderboard"><template shadowrootmode="open"><!---->
+      <a class="wrapper-link" href="https://www.cloudskillsboost.google/profile/leaderboard">
+        <div class="container">
+          <!--?lit$729167062$-->
+      <div class="points">
+        <ql-icon size="20" class="star"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: 20px;">
+        <slot><!--?lit$729167062$--></slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template>star</ql-icon>
+        <!--?lit$729167062$-->10 <!--?lit$729167062$-->pts
+      </div>
+     <!--?lit$729167062$-->
+        </div>
+      </a>
+      <!--?lit$729167062$--><div class="message-container"><!--?lit$729167062$--></div>
+    </template></ql-user-points>
+
+<ql-icon-button id="my_account" label="My account" tip="My account"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="My account" aria-busy="false" aria-haspopup="true" aria-controls="my_account_menu">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+<ql-avatar><template shadowrootmode="open"><!---->
+      <ql-icon class="avatar" product="avatar_anonymous"><template shadowrootmode="open"><!---->
+      <img aria-hidden="true" src="https://www.gstatic.com/images/branding/product/2x/avatar_anonymous_512dp.png" width="40" height="40">
+      <!--?lit$729167062$--><!--?-->
+    </template>
+      </ql-icon>
+    </template></ql-avatar>
+</ql-icon-button>
+<ql-menu for="my_account" id="my_account_menu" tabindex="-1" aria-hidden="true" style="left: -1000px; top: -1000px; opacity: 0; visibility: hidden;" role="menu" aria-labelledby="my_account"><template shadowrootmode="open"><!---->
+      <ql-card elevation="3"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+        <slot></slot>
+      </ql-card>
+    </template>
+<div class="my-account-menu">
+<ql-avatar class="l-mtl l-mbl" size="120"><template shadowrootmode="open"><!---->
+      <ql-icon class="avatar" product="avatar_anonymous"><template shadowrootmode="open"><!---->
+      <img aria-hidden="true" src="https://www.gstatic.com/images/branding/product/2x/avatar_anonymous_512dp.png" width="120" height="120">
+      <!--?lit$729167062$--><!--?-->
+    </template>
+      </ql-icon>
+    </template></ql-avatar>
+<div class="my-account-menu__user-info l-mbl">
+<h4 class="ql-title-medium">Eshaa Saleem</h4>
+<p class="ql-body-medium text--light">eshaasaleem30@gmail.com</p>
+<p class="ql-body-medium text--light">
+</p>
+<a class="text--green ql-title-small" href="https://www.cloudskillsboost.google/my_account/payments"><ql-chip positive=""><template shadowrootmode="open"><!---->
+      <div class=" chip positive ">
+        <!--?lit$729167062$-->
+        <slot></slot>
+      </div>
+      <!--?lit$729167062$-->
+    </template>
+0 Credits
+</ql-chip>
+</a></div>
+<div class="buttons l-mbl">
+<a class="button button--hairline" id="settings" href="https://www.cloudskillsboost.google/my_account/profile">Settings</a>
+</div>
+<hr>
+<ql-button data-analytics-action="clicked_sign_out" href="/users/sign_out" method="delete"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button default " aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+Sign Out
+</ql-button>
+<div class="privacy l-mtl">
+<a target="_blank" class="ql-label-medium text--light" href="https://www.cloudskillsboost.google/privacy_policy">Privacy</a>
+<span class="ql-label-medium text--light l-mls l-mrs">·</span>
+<a class="ql-label-medium text--light" href="https://www.cloudskillsboost.google/terms_of_service">Terms</a>
+</div>
+</div>
+</ql-menu>
+
+</div>
+</ql-toolbar>
+
+</div>
+</div>
+
+<nav class="nav-panel js-nav-panel">
+<div class="nav-panel__logo">
+<div class="custom-logo"><img alt="Google Cloud Skills Boost" height="24" aria-label="Google Cloud Skills Boost" src="./Introducing Git _ Google Cloud Skills Boost_files/PGyhmgS3zZncIEGywnx5UXsKwepRRFQ9BhAg_WHNrlQ="></div>
+</div>
+<nav class="ql-sidenav">
+<ql-sidenav-item href="/" icon="home" label="Dashboard"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/" class=" sidenav-item " aria-label="Dashboard">
+        <!--?lit$729167062$-->
+      <ql-icon class="arrow"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$--></slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      <ql-icon class="icon"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$-->home</slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      <span class="label"><!--?lit$729167062$-->Dashboard</span>
+      <!--?lit$729167062$-->
+    
+      </a>
+     <!--?lit$729167062$--> </template></ql-sidenav-item>
+
+<ql-sidenav-item href="/paths" icon="playlist_add_check" label="Paths"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/paths" class=" sidenav-item " aria-label="Paths">
+        <!--?lit$729167062$-->
+      <ql-icon class="arrow"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$--></slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      <ql-icon class="icon"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$-->playlist_add_check</slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      <span class="label"><!--?lit$729167062$-->Paths</span>
+      <!--?lit$729167062$-->
+    
+      </a>
+     <!--?lit$729167062$--> </template></ql-sidenav-item>
+
+<ql-sidenav-item href="/catalog" icon="school" label="Explore"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/catalog" class=" sidenav-item " aria-label="Explore">
+        <!--?lit$729167062$-->
+      <ql-icon class="arrow"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$--></slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      <ql-icon class="icon"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$-->school</slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      <span class="label"><!--?lit$729167062$-->Explore</span>
+      <!--?lit$729167062$-->
+    
+      </a>
+     <!--?lit$729167062$--> </template></ql-sidenav-item>
+
+<ql-sidenav-item href="/profile" icon="event_note" label="Profile"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/profile" class=" sidenav-item " aria-label="Profile">
+        <!--?lit$729167062$-->
+      <ql-icon class="arrow"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$--></slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      <ql-icon class="icon"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$-->event_note</slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      <span class="label"><!--?lit$729167062$-->Profile</span>
+      <!--?lit$729167062$-->
+    
+      </a>
+     <!--?lit$729167062$--> </template></ql-sidenav-item>
+
+<ql-sidenav-item href="/subscriptions" icon="subscriptions" label="Subscriptions"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/subscriptions" class=" sidenav-item " aria-label="Subscriptions">
+        <!--?lit$729167062$-->
+      <ql-icon class="arrow"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$--></slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      <ql-icon class="icon"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$-->subscriptions</slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      <span class="label"><!--?lit$729167062$-->Subscriptions</span>
+      <!--?lit$729167062$-->
+    
+      </a>
+     <!--?lit$729167062$--> </template></ql-sidenav-item>
+
+</nav>
+
+</nav>
+<div class="nav-panel__overlay js-nav-toggle"></div>
+
+<main class="js-main" id="jump-content">
+<div class="l-main-wrapper" id="main-wrapper">
+
+
+
+
+<div class="lab-assessment__tab js-open-lab-assessment-panel">
+<button class="js-lab-assessment-total-score">10/30</button>
+</div>
+<div aria-labelledby="lab-assessment-checkpoint" class="lab-assessment__panel js-lab-assessment-panel" role="dialog">
+<div class="lab-assessment__panel__header">
+<h4 id="lab-assessment-checkpoint">Checkpoints</h4>
+<ql-icon-button class="js-close-lab-assessment-panel" icon="arrow_forward" label="Close dialog"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Close dialog" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$-->arrow_forward
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-icon-button>
+</div>
+<div class="lab-assessment__step">
+<p class="lab-assessment__step__title" id="lab-assessment-step-title">
+Install git
+</p>
+<div class="lab-assessment__step__action">
+<ql-button class="js-show-run-step-button" description="Install git" step_no="1"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$--><p id="button-description" hidden=""><!--?lit$729167062$-->Install git</p>
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button default " aria-describedby="button-description" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+Check my progress
+</ql-button>
+<p class="lab-assessment__step__score">
+<span class="js-assessment-step-score-1">10</span>
+/ 10
+</p>
+</div>
+</div>
+
+<div class="lab-assessment__step">
+<p class="lab-assessment__step__title" id="lab-assessment-step-title">
+First commit
+</p>
+<div class="lab-assessment__step__action">
+<ql-button class="js-show-run-step-button" description="First commit" step_no="2"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$--><p id="button-description" hidden=""><!--?lit$729167062$-->First commit</p>
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button default " aria-describedby="button-description" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+Check my progress
+</ql-button>
+<p class="lab-assessment__step__score">
+<span class="js-assessment-step-score-2">0</span>
+/ 10
+</p>
+</div>
+</div>
+
+<div class="lab-assessment__step">
+<p class="lab-assessment__step__title" id="lab-assessment-step-title">
+Second commit
+</p>
+<div class="lab-assessment__step__action">
+<ql-button class="js-show-run-step-button" description="Second commit" step_no="3"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$--><p id="button-description" hidden=""><!--?lit$729167062$-->Second commit</p>
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button default " aria-describedby="button-description" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+Check my progress
+</ql-button>
+<p class="lab-assessment__step__score">
+<span class="js-assessment-step-score-3">0</span>
+/ 10
+</p>
+</div>
+</div>
+
+</div>
+<ql-drawer-container class="js-lab-state" data-analytics-payload="{&quot;label&quot;:&quot;Introducing Git&quot;,&quot;lab_name&quot;:&quot;Introducing Git&quot;,&quot;classroom_name&quot;:null,&quot;deployment&quot;:&quot;google-run&quot;}" data-credits="0.0" data-focus-id="38285276" data-lab-duration="5400" data-parent="lti_session" data-recaptcha-enabled="" id="lab-container"><template shadowrootmode="open"><!---->
+      <slot name="drawer"></slot>
+      <div class="content" style="margin-left: 640px; margin-right: 0px; transition: margin-left var(--transition-time-enter) var(--transition-curve-enter);">
+        <slot name="drawer-content"></slot>
+        <slot></slot>
+      </div>
+      <!--?lit$729167062$-->
+    </template>
+<ql-drawer id="terminal-drawer" slot="drawer" aria-hidden="false" role="region" mode="side" style="visibility: visible;" open=""><template shadowrootmode="open"><!---->
+      <!--?lit$729167062$-->
+      <slot></slot>
+    </template>
+<iframe allow="clipboard-read" class="terminal" id="embedded-resource" src="./Introducing Git _ Google Cloud Skills Boost_files/saved_resource(1).html"></iframe>
+</ql-drawer>
+<ql-drawer-content class="js-lab-wrapper" id="lab-content" slot="drawer-content"><template shadowrootmode="open"><!----><slot></slot></template>
+<ql-drawer-container id="lab-content-container"><template shadowrootmode="open"><!---->
+      <slot name="drawer"></slot>
+      <div class="content" style="margin-left: 0px; margin-right: 0px; transition: margin-left var(--transition-time-exit) var(--transition-curve-tempexit), margin-right var(--transition-time-exit) var(--transition-curve-tempexit);">
+        <slot name="drawer-content"></slot>
+        <slot></slot>
+      </div>
+      <!--?lit$729167062$-->
+    </template>
+<ql-drawer id="control-panel-drawer" slot="drawer" width="320" aria-hidden="true" role="region" mode="side" style="width: 320px; visibility: hidden;" tabindex="-1"><template shadowrootmode="open"><!---->
+      <!--?lit$729167062$-->
+      <slot></slot>
+    </template>
+
+</ql-drawer>
+<ql-drawer-content id="lab-instructions" slot="drawer-content"><template shadowrootmode="open"><!----><slot></slot></template>
+<div class="lab-content-container">
+<div class="alert alert--fake js-alert">
+<p class="alert__message js-alert-message" role="alert"></p>
+<ql-icon-button class="alert__close js-alert-close" icon="clear"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="clear" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$-->clear
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-icon-button>
+<iframe class="l-ie-iframe-fix" tabindex="-1" src="./Introducing Git _ Google Cloud Skills Boost_files/saved_resource(2).html"></iframe>
+</div>
+<div class="lab-content__renderable-instructions js-lab-content">
+<div class="lab-preamble">
+<h1 class="ql-display-large lab-preamble__title">
+Introducing Git
+</h1>
+<div class="lab-preamble__details ql-title-medium">
+<span>
+<ql-icon icon="experiment"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$-->experiment</slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+Lab
+</span>
+<span>
+<ql-icon icon="schedule"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$-->schedule</slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+1 hour 30 minutes
+</span>
+<span>
+<ql-icon><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$--></slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template>universal_currency_alt</ql-icon>
+No cost
+</span>
+<span>
+<ql-icon><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$--></slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template>show_chart</ql-icon>
+Introductory
+</span>
+</div>
+<div class="lab__rating">
+<a aria-label="Lab Reviews" href="https://www.cloudskillsboost.google/focuses/38285276/reviews?parent=lti_session"><div class="rateit" data-rateit-readonly="true" data-rateit-value="4.5906"><div class="rateit-reset" style="display: none;"></div><div class="rateit-range" style="width: 80px; height: 16px;"><div class="rateit-selected" style="height: 16px; width: 73.4496px;"></div><div class="rateit-hover" style="height:16px"></div></div></div>
+
+</a></div>
+<div class="lab-preamble__ai_notice">
+<ql-infobox><template shadowrootmode="open"><!---->
+      <aside part="aside">
+        <slot></slot>
+      </aside>
+    </template>
+<span>
+<ql-icon><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$--></slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template>info</ql-icon>
+This lab may incorporate AI tools to support your learning.
+</span>
+</ql-infobox>
+</div>
+</div>
+<div class="lab-outline-mobile" id="outline_mobile">
+<div class="header">
+<div class="ql-label-small">Lab instructions and tasks</div>
+<ql-toggle-button expandable="" for="outline_mobile" officon="expand_less" onicon="expand_more"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-busy="false" aria-pressed="false" aria-expanded="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$-->expand_less
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-toggle-button>
+</div>
+<ul class="lab-content__outline">
+<li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step1">Introduction</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step2">Install Git</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step3">Initialize a new repository</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step4">Configure Git</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step5">Git Operations</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step6">Congratulations!</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step7">End your lab</a></li>
+</ul>
+</div>
+<div class="instruction-signed-in-card">
+<div class="lab-mobile-card card elevation-2">
+<img src="./Introducing Git _ Google Cloud Skills Boost_files/send_link_image-5f833bd146929134c423c83e4bb520429ce72180.png">
+<div class="ql-title-large">This content is not yet optimized for mobile devices.</div>
+<div class="ql-body-large">For the best experience, please visit us on a desktop computer using a link sent by email.</div>
+<ql-button href="/focuses/38285276/resume_on_desktop_email?parent=lti_session" icon="link" label="Send link" method="post"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill ql-button default " aria-label="Send link" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$-->
+        <ql-icon class="mdc-button__icon" aria-hidden="true"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$--></slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template>
+          <!--?lit$729167062$-->link
+        </ql-icon>
+       <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$-->Send link </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-button>
+</div>
+
+</div>
+
+<div class="markdown-lab-instructions js-markdown-instructions" id="markdown-lab-instructions">
+
+<h2 id="step1">Introduction</h2>
+<p>In this scenario, you are a project lead in an IT company. You and your team are working on a huge project, which consists of multiple functionalities and modules. This project is evolving over time and so your team is expecting a lot of code revisions. In this lab, you'll learn how to use a distributed version control system called Git. You'll also discover how to connect to a VM instance, install Git, and configure your Git user information. Next, you'll create a local Git repository, add a file to the repository, and do some basic operations like adding a file, editing files, and making commits.</p>
+<h4><strong>What you'll do</strong></h4>
+<ul>
+<li>Create a git repository.</li>
+<li>Add files to this repository</li>
+<li>Edit the files</li>
+<li>Commit the changes to the repository.</li>
+</ul>
+<p>You'll have 90 minutes to complete this lab.</p>
+<ql-infobox><template shadowrootmode="open"><!---->
+      <aside part="aside">
+        <slot></slot>
+      </aside>
+    </template><strong>Disclaimer:</strong> For optimal performance and compatibility, it is recommended to use either <strong>Google Chrome</strong> or <strong>Mozilla Firefox</strong> browsers while accessing the labs.</ql-infobox>
+<h3>Start the lab</h3>
+<p>You'll need to start the lab before you can access the materials. To do this, click the green “Start Lab” button at the top of the screen.</p>
+<p><img alt="Green &quot;Start Lab&quot; button" src="./Introducing Git _ Google Cloud Skills Boost_files/m8bGh8IYyYTzRYAJCj2t0DqCOLRDVcr+Fy5bwhKxwvU="></p>
+<p>After you click the “Start Lab” button, you will see a shell, where you will be performing further steps in the lab. You should have a shell like this:</p>
+<p><img alt="Screenshot of shell terminal CLI. CLI reads &quot;student@864a6934570a: -$&quot;" src="./Introducing Git _ Google Cloud Skills Boost_files/dErdTSF9XOBLiqFo7T0EURbVA3+7BPUfhR3X3xGm9u0="></p>
+
+<h2 id="step2">Install Git</h2>
+<p>Before you install <strong>Git</strong> on your Linux VM, you need to first make sure that you have a fresh index of the packages available to you. To do that, run:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">sudo apt update</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+sudo apt update
+</ql-code-block>
+<p>Now, you can install <strong>Git</strong> on your Linux host using <strong>apt</strong> by running the following command:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">sudo apt install git</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="off" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+sudo apt install git
+</ql-code-block>
+<p>For any prompts, continue by clicking <strong>Y</strong>.</p>
+<p>Check the installed version of <strong>git</strong> by using the command below:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git --version</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="off" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git --version
+</ql-code-block>
+<p>Click <em>Check my progress</em> to verify the objective.
+<ql-activity-tracking step="1" labinstanceid="105091172"><template shadowrootmode="open"><!---->
+      <ql-assessment aria-label="Git installed successfully."><template shadowrootmode="open"><!---->
+      <div class="assessment-left">
+        <ql-assessment-status><template shadowrootmode="open"><!---->
+      <div class="status" role="progressbar" aria-live="assertive" status="complete" tooltip="" aria-hidden="false" aria-valuenow="100" aria-label="Successful."><!--?lit$729167062$-->
+      <p class="non-visible-screen-reader-description"><!--?lit$729167062$-->Git installed successfully.</p>
+    </div>
+    </template>
+        </ql-assessment-status>
+      </div>
+
+      <div class="assessment-right">
+        <div class="assessment-content">
+          <slot></slot>
+        </div>
+
+        <!--?lit$729167062$-->
+      <span class="message" aria-live="polite"><!--?lit$729167062$-->Git installed successfully.</span>
+    
+      </div>
+    </template>
+        <p>
+          <slot><!--?lit$729167062$-->I completed this step.</slot>
+        </p>
+
+        <ql-button aria-label="Check my progress"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="true" tabindex="0">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button default " aria-busy="false" disabled="">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+          <!--?lit$729167062$-->Check my progress
+        </ql-button>
+      </ql-assessment>
+    </template>
+Install git
+</ql-activity-tracking></p>
+<h2 id="step3">Initialize a new repository</h2>
+<p>Create a <strong>directory</strong> to store your project in. To do this, use the following command:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">mkdir my-git-repo</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="off" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+mkdir my-git-repo
+</ql-code-block>
+<p>Now navigate to the <strong>directory</strong> you created.</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash"><span class="hljs-built_in">cd</span> my-git-repo</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+cd my-git-repo
+</ql-code-block>
+<p>Next, initialize a new repository by using the following command:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git init</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git init
+</ql-code-block>
+<p>The <strong>git init</strong> command creates a new Git repository. In our case, it transformed the current directory into a Git repository. It can also be used to convert an existing, unversioned project to a Git repository or to initialize a new, empty repository.</p>
+<p>Executing <strong>git init</strong> creates a <strong>.git</strong> subdirectory in the current working directory, which contains all of the necessary Git metadata for the new repository. This metadata includes subdirectories for objects, refs, and template files. A HEAD file is also created which points to the currently checked out commit.</p>
+<p>If you've already run <strong>git init</strong> on a project directory containing a <strong>.git</strong> subdirectory, you can safely run <strong>git init</strong> again on the same project directory. The operation is what we call <em>idempotent</em>; running it again doesn't override an existing <strong>.git</strong> configuration.</p>
+<h2 id="step4">Configure Git</h2>
+<p>Git uses a username to associate commits with an identity. It does this by using the <strong>git config</strong> command. To set <strong>Git username</strong> use the following command:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git config --global user.name <span class="hljs-string">"Name"</span></pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git config --global user.name "Name"
+</ql-code-block>
+<p>Replace <strong>Name</strong> with your name. Any future commits you push to GitHub from the command line will now be represented by this name. You can use <strong>git config</strong> to even change the name associated with your Git commits. This will only affect future commits and won't change the name used for past commits.</p>
+<p>Let's set your <strong>email address</strong> to associate it with your <strong>Git commits</strong>.</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git config --global user.email <span class="hljs-string">"user@example.com"</span></pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git config --global user.email "user@example.com"
+</ql-code-block>
+<p>Replace <strong>user@example.com</strong> with your <strong>email-id</strong>. Any future commits you now push to GitHub will be associated with this email address. You can even use <strong>git config</strong> to change the <strong>user email</strong> associated with your <strong>Git commits</strong>.</p>
+<h2 id="step5">Git Operations</h2>
+<p>Let's now create a text file named <strong>README</strong>. We will be using the <code>nano</code> editor for this.</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">nano README</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="off" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+nano README
+</ql-code-block>
+<p>Type any text within the file, or you can use the following text:</p>
+<ql-code-block language="text"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="text wrap hljs plaintext">This is my first repository.</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+This is my first repository.
+</ql-code-block>
+
+<ql-expandable-infobox teaser="Chromebook users: Instructions for saving a file in the nano editor"><template shadowrootmode="open"><!---->
+      <ql-collapsible class="infobox" expanded=""><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <button aria-controls="panel" id="header" aria-expanded="true" class="header toggle-button expanded">
+        <slot name="header"></slot>
+        <ql-icon icon="keyboard_arrow_right"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: 24px;">
+        <slot><!--?lit$729167062$-->keyboard_arrow_right</slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+      </button>
+     <!--?lit$729167062$-->
+      <div id="panel" role="region" aria-labelledby="header" class="panel expanded" style="height: auto;">
+        <slot name="collapsible"></slot>
+      </div>
+     </template>
+        <div class="header" slot="header"> <!--?lit$729167062$-->Chromebook users: Instructions for saving a file in the nano editor </div>
+        <slot class="collapsible" slot="collapsible"> </slot>
+      </ql-collapsible>
+    </template>
+<ol>
+<li>
+<p><strong>Save the file:</strong></p>
+<ul>
+<li>Press <strong>Ctrl + O</strong> (which stands for "<strong>Write Out</strong>").</li>
+<li>You will see a prompt "<strong>My files</strong>" window  will open, simply close it.</li>
+<li>Press <strong>Enter</strong> to save the changes.</li>
+</ul>
+</li>
+<li>
+<p><strong>Close the nano editor:</strong></p>
+<ul>
+<li>Press <strong>Ctrl + X</strong> to exit nano and perform the next command.</li>
+</ul>
+</li>
+</ol>
+</ql-expandable-infobox>
+
+<p>Save the file by pressing <strong>Ctrl-o</strong>, <strong>Enter</strong> key, and <strong>Ctrl-x</strong>.</p>
+<p>Git is now aware of the files in the project. We can check the <strong>status</strong> using the following command:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git status</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git status
+</ql-code-block>
+<p>This command displays the <strong>status</strong> of the working tree. It also shows changes that have been staged, changes that haven't been staged, and files that aren't tracked by Git.</p>
+<ql-code-block language="text" output=""><template shadowrootmode="open"><!---->
+      <div class=" container dark-theme ">
+        <pre class="text wrap hljs plaintext">On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add &lt;file&gt;..." to include in what will be committed)
+	
+    README
+
+nothing added to commit but untracked files present (use "git add" to track)</pre>
+      </div>
+      <!--?lit$729167062$-->
+    </template>
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add &lt;file&gt;..." to include in what will be committed)
+	
+    README
+
+nothing added to commit but untracked files present (use "git add" to track)
+</ql-code-block>
+<p>You can now see the file you created, <strong>README</strong>, under the section <strong>Untracked files</strong>. Git isn't tracking the files yet. To track the files, we have to commit these files by adding them to the staging area.</p>
+<p>Now let's <strong>add</strong> the file to the staging area using the following command:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git add README</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git add README
+</ql-code-block>
+<p>This command adds changes from the working tree to the staging area i.e., it gathers and prepares files for Git before committing them. In other words, it updates the index with the current content found in the working tree to prepare the content that's staged for the next commit.</p>
+<p>You can now view the status of the working tree using the command: <strong>git status</strong>. This now shows the file <strong>README</strong> in <strong>green</strong> i.e., the file is now in the staging area and yet to be committed.</p>
+<ql-code-block language="text" output=""><template shadowrootmode="open"><!---->
+      <div class=" container dark-theme ">
+        <pre class="text wrap hljs plaintext">On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached &lt;file&gt;..." to unstage)
+	
+    new file:   README</pre>
+      </div>
+      <!--?lit$729167062$-->
+    </template>
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached &lt;file&gt;..." to unstage)
+	
+    new file:   README
+</ql-code-block>
+<p>However, <strong>git add</strong> doesn't affect the repository in any serious way because changes are not actually recorded until you commit them.</p>
+<p>Let's now commit the changes. A <strong>Git commit</strong> is equivalent to the term <strong>Save</strong>.</p>
+<p>Commit the changes using the following command:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git commit</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git commit
+</ql-code-block>
+<p>This now opens an editor, asking you to type a commit message. Every commit has an associated commit message. A commit message is a log message from the user describing the changes.</p>
+<p>Enter the <strong>commit</strong> message of your choice or you can use the following text:</p>
+<ql-code-block language="text"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="text wrap hljs plaintext">This is my first commit!</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+This is my first commit!
+</ql-code-block>
+<p>Once you have entered the commit message, save it by pressing <strong>Ctrl-o</strong> and <strong>Enter</strong> key. To exit click <strong>Ctrl-x</strong>.</p>
+<p>The <strong>git commit</strong> command captures a snapshot of the project's currently staged changes i.e., it stores the current contents of the index in a new commit along with the commit message.</p>
+<p>Click <em>Check my progress</em> to verify the objective.
+<ql-activity-tracking step="2" labinstanceid="105091172"><template shadowrootmode="open"><!---->
+      <ql-assessment aria-label=""><template shadowrootmode="open"><!---->
+      <div class="assessment-left">
+        <ql-assessment-status><template shadowrootmode="open"><!---->
+      <div class="status" role="progressbar" aria-live="assertive" status="initialized" tooltip="" aria-hidden="true" aria-valuenow="0" aria-label=""><!--?lit$729167062$--></div>
+    </template>
+        </ql-assessment-status>
+      </div>
+
+      <div class="assessment-right">
+        <div class="assessment-content">
+          <slot></slot>
+        </div>
+
+        <!--?lit$729167062$-->
+      </div>
+    </template>
+        <p>
+          <slot><!--?lit$729167062$-->I completed this step.</slot>
+        </p>
+
+        <ql-button aria-label="Check my progress"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button default " aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+          <!--?lit$729167062$-->Check my progress
+        </ql-button>
+      </ql-assessment>
+    </template>
+First commit
+</ql-activity-tracking></p>
+<p>You have successfully committed your file!</p>
+<p>Let's now <code>re-edit</code> the file again to understand the process better. Open the file <strong>README</strong> using <code>nano</code> editor.</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">nano README</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+nano README
+</ql-code-block>
+<p>Now add another line of description for your repository below the earlier entered line. Add the description of your choice or you can use the following text:</p>
+<ql-code-block language="text"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="text wrap hljs plaintext">A repository is a location where all the files of a particular project are stored.</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+A repository is a location where all the files of a particular project are stored.
+</ql-code-block>
+<p>Save and exit the editor by pressing <strong>Ctrl-o</strong>, <strong>Enter</strong> key, and <strong>Ctrl-x</strong>.</p>
+<p>Now, let's repeat the previous process. As mentioned earlier, you can always check the status of your repository by using:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git status</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git status
+</ql-code-block>
+<p>To understand the difference, compare with the earlier scenario where you added the new file to the repository.</p>
+<ql-code-block language="text" output=""><template shadowrootmode="open"><!---->
+      <div class=" container dark-theme ">
+        <pre class="text wrap hljs plaintext">On branch master
+Changes not staged for commit:
+  (use "git add &lt;file&gt;..." to update what will be committed)
+  (use "git restore &lt;file&gt;..." to discard changes in working directory)
+	
+    modified:   README
+
+no changes added to commit (use "git add" and/or "git commit -a")</pre>
+      </div>
+      <!--?lit$729167062$-->
+    </template>
+On branch master
+Changes not staged for commit:
+  (use "git add &lt;file&gt;..." to update what will be committed)
+  (use "git restore &lt;file&gt;..." to discard changes in working directory)
+	
+    modified:   README
+
+no changes added to commit (use "git add" and/or "git commit -a")
+</ql-code-block>
+<p>Git tracks the changes and displays that the file has been modified. You can view the changes made to file using the following command:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git diff README</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git diff README
+</ql-code-block>
+<p>You can see the differences between the older file and the new file. New additions are denoted by <strong>green-colored</strong> text and a <strong>+</strong> sign at the start of the line. Any replacements/removal are denoted by text in <strong>red-colored</strong> text and a <strong>-</strong> sign at the start of the line.</p>
+<p>Now, we will add these changes to the staging area.</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git add README</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git add README
+</ql-code-block>
+<p>View the <strong>status</strong> of the repository using the following command:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git status</pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git status
+</ql-code-block>
+<p>Git now shows the same file in <strong>green-colored</strong> text. This means the changes are staged and ready to be committed.</p>
+<p>Let's commit the file now by entering the commit message with the command itself, unlike the previous commit.</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git commit -m <span class="hljs-string">"This is my second commit."</span></pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git commit -m "This is my second commit."
+</ql-code-block>
+<p>The command <strong>git commit</strong> with <strong>-m</strong> flag takes the commit message, too. This is different to the command without flag, where you had to type the commit message within the editor. If multiple <strong>-m</strong> flags are given to the command, it concatenates the values as separate paragraphs.</p>
+<p>To view all the commits use the following command:</p>
+<ql-code-block language="sh"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="sh wrap hljs bash">git <span class="hljs-built_in">log</span></pre>
+      </div>
+      <!--?lit$729167062$-->
+      <div class="copy-container"> <!--?lit$729167062$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$729167062$-->Copied!
+      </span>
+     <!--?lit$729167062$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$729167062$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+git log
+</ql-code-block>
+<p><strong>Git log</strong> command shows the commit history of the repository. It shows all the commits on the repository represented by a unique <strong>commit ID</strong> at the top of each commit. It also shows the author, date, and time and the commit message associated with the commits.</p>
+<p>You also have various options to limit the output of this command. The output can be filtered based on the last number of commits, author, commit message, etc.</p>
+<p>Click <em>Check my progress</em> to verify the objective.
+<ql-activity-tracking step="3" labinstanceid="105091172"><template shadowrootmode="open"><!---->
+      <ql-assessment aria-label=""><template shadowrootmode="open"><!---->
+      <div class="assessment-left">
+        <ql-assessment-status><template shadowrootmode="open"><!---->
+      <div class="status" role="progressbar" aria-live="assertive" status="initialized" tooltip="" aria-hidden="true" aria-valuenow="0" aria-label=""><!--?lit$729167062$--></div>
+    </template>
+        </ql-assessment-status>
+      </div>
+
+      <div class="assessment-right">
+        <div class="assessment-content">
+          <slot></slot>
+        </div>
+
+        <!--?lit$729167062$-->
+      </div>
+    </template>
+        <p>
+          <slot><!--?lit$729167062$-->I completed this step.</slot>
+        </p>
+
+        <ql-button aria-label="Check my progress"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button default " aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+          <!--?lit$729167062$-->Check my progress
+        </ql-button>
+      </ql-assessment>
+    </template>
+Second commit
+</ql-activity-tracking></p>
+<h2 id="step6">Congratulations!</h2>
+<p>Congrats! You've successfully installed the Git, initialized a repository, and performed basic Git operations. Now that you know how to do this, it will be easier for you and your team to work on a huge project with multiple functionalities and modules.</p>
+<h2 id="step7">End your lab</h2>
+<p>When you have completed your lab, click <strong>End Lab</strong>. Qwiklabs removes the resources you’ve used and cleans the account for you.</p>
+<p>You will be given an opportunity to rate the lab experience. Select the applicable number of stars, type a comment, and then click <strong>Submit</strong>.</p>
+<p>The number of stars indicates the following:</p>
+<ul>
+<li>1 star = Very dissatisfied</li>
+<li>2 stars = Dissatisfied</li>
+<li>3 stars = Neutral</li>
+<li>4 stars = Satisfied</li>
+<li>5 stars = Very satisfied</li>
+</ul>
+<p>You can close the dialog box if you don't want to provide feedback.</p>
+<p>For feedback, suggestions, or corrections, please use the <strong>Support</strong> tab.</p>
+
+
+
+
+
+</div>
+</div>
+
+
+<div class="lab-content__end-lab-button js-end-lab-button-container">
+<ql-lab-control-button class="js-end-lab-button" running=""><template shadowrootmode="open"><!---->
+      <ql-button><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button negative " aria-expanded="true" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+        <!--?lit$729167062$-->End Lab
+      </ql-button>
+    </template></ql-lab-control-button>
+</div>
+<!-- / TODO: Move recommendations into the end lab modal -->
+</div>
+</ql-drawer-content>
+<ql-drawer end="" id="lab-outline-drawer" slot="drawer" width="240" aria-hidden="true" role="region" mode="side" style="width: 240px; visibility: hidden;" tabindex="-1"><template shadowrootmode="open"><!---->
+      <!--?lit$729167062$-->
+      <slot></slot>
+    </template>
+<div aria-label="Lab Table of Contents" class="outline-container" id="js-outline-container" role="navigation">
+<ul class="lab-content__outline js-lab-content-outline">
+<div class="ql-label-small">Lab instructions and tasks</div>
+<li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step1" class="">Introduction</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step2" class="">Install Git</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step3" class="">Initialize a new repository</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step4" class="">Configure Git</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step5" class="is-active" aria-current="step">Git Operations</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step6" class="">Congratulations!</a></li><li><a href="https://www.cloudskillsboost.google/focuses/38285276?parent=lti_session#step7" class="">End your lab</a></li>
+</ul>
+</div>
+</ql-drawer>
+</ql-drawer-container>
+</ql-drawer-content>
+</ql-drawer-container>
+
+
+
+</div>
+</main>
+
+<span class="hidden" id="flash-sibling-before"></span>
+<ql-snackbar aria-live="polite" role="alert"><template shadowrootmode="open"><!---->
+      <div class=" snackbar " style="left: 0px;">
+        <slot></slot>
+        <!--?lit$729167062$-->
+      <div aria-label="To access the notification, press Alt+G"></div>
+    
+      </div>
+    </template></ql-snackbar>
+
+<script data-glue-cookie-notification-bar-category="2B" src="./Introducing Git _ Google Cloud Skills Boost_files/cookienotificationbar.min.js.download"></script>
+
+
+
+<ql-dialog headline="Score Details" icon="task_alt" id="jupyter-feedback-modal" tabindex="-1" aria-hidden="true"><template shadowrootmode="open"><!---->
+      <div class=" dialog-wrapper ">
+        <ql-card elevation="3" role="dialog" aria-labelledby="title" aria-modal="true"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+          <!--?lit$729167062$-->
+      <div part="header" class=" header centered ">
+        <!--?lit$729167062$--> <ql-icon><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$-->task_alt</slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+        <h1 id="title"><!--?lit$729167062$--><!--?lit$729167062$-->Score Details<!--?--></h1>
+      </div>
+      <div class="body" part="body">
+        <slot></slot>
+      </div>
+      <div part="actions" class=" actions ">
+        <!--?lit$729167062$-->
+      <ql-button class="dismissal-button" label="OK"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button gm-button-text ql-button default " aria-label="OK" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$-->OK </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+      </ql-button>
+    
+        <slot name="action"></slot>
+      </div>
+    
+        </ql-card>
+        <!--?lit$729167062$--> <div class=" overlay "></div>
+      </div>
+    </template>
+<iframe id="jupyter-feedback-frame" title="Jupyter Feedback" src="./Introducing Git _ Google Cloud Skills Boost_files/saved_resource(3).html"></iframe>
+</ql-dialog>
+
+<ql-dialog id="lab-notification-dialog" nodefaultaction="" nodefaultdismiss="" tabindex="-1" aria-hidden="true"><template shadowrootmode="open"><!---->
+      <div class=" dialog-wrapper ">
+        <ql-card elevation="3" role="dialog" aria-labelledby="title" aria-modal="true"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+          <!--?lit$729167062$-->
+      <div part="header" class=" header ">
+        <!--?lit$729167062$-->
+        <h1 id="title"><!--?lit$729167062$--><!--?lit$729167062$--><!--?--></h1>
+      </div>
+      <div class="body" part="body">
+        <slot></slot>
+      </div>
+      <div part="actions" class="actions multiple">
+        <!--?lit$729167062$-->
+        <slot name="action"></slot>
+      </div>
+    
+        </ql-card>
+        <!--?lit$729167062$--> <div class=" overlay "></div>
+      </div>
+    </template>
+<img src="./Introducing Git _ Google Cloud Skills Boost_files/disable_lab-47cff1f6bc3610f58767251ff93c2f99cf4f9040.png">
+<p class="title ql-headline-4">This content is not currently available</p>
+<p class="description ql-body-1">We will notify you via email when it becomes available</p>
+<ql-button href="/focuses/38285276/set_up_lab_forward_url?parent=lti_session" id="lab-notification-close-button" label="No, thanks" slot="action" text=""><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276/set_up_lab_forward_url?parent=lti_session" class=" mdc-button gm-button-text ql-button default " aria-label="No, thanks">
+        <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$-->No, thanks </span> 
+    
+      </a>
+     <!--?lit$729167062$--> </template></ql-button>
+<ql-button fill="" id="lab-notification-submit" label="Yes, notify me" slot="action" text=""><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button default " aria-label="Yes, notify me" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$-->Yes, notify me </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-button>
+</ql-dialog>
+<ql-dialog id="lab-notification-subscribed-dialog" nodefaultaction="" nodefaultdismiss="" tabindex="-1" aria-hidden="true"><template shadowrootmode="open"><!---->
+      <div class=" dialog-wrapper ">
+        <ql-card elevation="3" role="dialog" aria-labelledby="title" aria-modal="true"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+          <!--?lit$729167062$-->
+      <div part="header" class=" header ">
+        <!--?lit$729167062$-->
+        <h1 id="title"><!--?lit$729167062$--><!--?lit$729167062$--><!--?--></h1>
+      </div>
+      <div class="body" part="body">
+        <slot></slot>
+      </div>
+      <div part="actions" class="actions multiple">
+        <!--?lit$729167062$-->
+        <slot name="action"></slot>
+      </div>
+    
+        </ql-card>
+        <!--?lit$729167062$--> <div class=" overlay "></div>
+      </div>
+    </template>
+<img src="./Introducing Git _ Google Cloud Skills Boost_files/notifcation_subscribed-2b4f9e51439e1a107488ab58a6e13c3c62ef8855.png">
+<p class="title ql-headline-4">Great!</p>
+<p class="description ql-body-1">We will contact you via email if it becomes available</p>
+<ql-button href="/focuses/38285276/set_up_lab_forward_url?parent=lti_session" id="lab-notification-subscribed-close-button" label="Back to screen" slot="action" text=""><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <a href="https://www.cloudskillsboost.google/focuses/38285276/set_up_lab_forward_url?parent=lti_session" class=" mdc-button gm-button-text ql-button default " aria-label="Back to screen">
+        <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$-->Back to screen </span> 
+    
+      </a>
+     <!--?lit$729167062$--> </template></ql-button>
+</ql-dialog>
+
+<div class="modal fade" id="lab-details-modal">
+<div class="modal-container">
+<div class="modal-content mdl-shadow--24dp">
+<div class="modal-body">
+<p class="l-mbm">
+This lab has instructions to install Git, configure Git user information, create a local Git repository, add a file to the repository, and do some basic operations like adding a file, editing files, and making commits.
+</p>
+<p class="small-label l-mbs">
+<strong>
+Duration:
+</strong>
+0m setup
+·
+90m access
+·
+90m completion
+</p>
+<p class="small-label l-mbs">
+<strong>AWS Region:</strong>
+[] <strong></strong>
+</p>
+<p class="small-label l-mbs">
+<span><strong>Levels: </strong>introductory</span>
+</p>
+<p class="small-label">
+<strong>
+Permalink:
+</strong>
+<a href="https://www.cloudskillsboost.google/catalog_lab/30951">https://www.cloudskillsboost.google/catalog_lab/30951</a>
+</p>
+</div>
+<div class="modal-actions">
+<a class="button button--text" data-dismiss="modal">
+Got It
+</a>
+</div>
+
+
+</div>
+</div>
+<iframe class="l-ie-iframe-fix" tabindex="-1" title="modal" src="./Introducing Git _ Google Cloud Skills Boost_files/saved_resource(4).html"></iframe>
+</div>
+<ql-dialog headline="How satisfied are you with this lab?&lt;span aria-hidden=&quot;true&quot;&gt;*&lt;/span&gt;" id="lab-review-dialog" tabindex="-1" aria-hidden="true"><template shadowrootmode="open"><!---->
+      <div class=" dialog-wrapper ">
+        <ql-card elevation="3" role="dialog" aria-labelledby="title" aria-modal="true"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+          <!--?lit$729167062$-->
+      <div part="header" class=" header ">
+        <!--?lit$729167062$-->
+        <h1 id="title"><!--?lit$729167062$--><!--?lit$729167062$-->How satisfied are you with this lab?<span aria-hidden="true">*</span><!--?--></h1>
+      </div>
+      <div class="body" part="body">
+        <slot></slot>
+      </div>
+      <div part="actions" class="actions multiple">
+        <!--?lit$729167062$-->
+      <ql-button class="dismissal-button" label="Cancel"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button gm-button-text ql-button default " aria-label="Cancel" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$-->Cancel </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+      </ql-button>
+    
+        <slot name="action"></slot>
+      </div>
+    
+        </ql-card>
+        <!--?lit$729167062$--> <div class=" overlay "></div>
+      </div>
+    </template>
+<form class="simple_form js-lab-review-form" id="new_lab_review" action="https://www.cloudskillsboost.google/lab_reviews" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓" autocomplete="off"><div aria-labelledby="lab-review-dialog" aria-required="true" aria-valuemax="5" aria-valuemin="0" aria-valuenow="0" class="rateit js-rateit" data-rateit-max="5" data-rateit-min="0" data-rateit-resetable="false" data-rateit-step="1" data-rateit-value="0" id="lab-review-rateit" role="slider" tabindex="0"><div class="rateit-reset" style="display: none;"></div><div class="rateit-range" style="width: 80px; height: 16px;"><div class="rateit-selected" style="height: 16px; width: 0px;"></div><div class="rateit-hover" style="height:16px"></div></div></div>
+<div class="l-mtm">
+
+<div class="control-group hidden lab_review_user_id"><div class="controls"><input class="hidden" autocomplete="off" type="hidden" value="47928032" name="lab_review[user_id]" id="lab_review_user_id"></div></div>
+<div class="control-group hidden lab_review_classroom_id"><div class="controls"><input class="hidden" autocomplete="off" type="hidden" name="lab_review[classroom_id]" id="lab_review_classroom_id"></div></div>
+<div class="control-group hidden lab_review_lab_id"><div class="controls"><input class="hidden" autocomplete="off" type="hidden" value="30951" name="lab_review[lab_id]" id="lab_review_lab_id"></div></div>
+<div class="control-group hidden lab_review_focus_id"><div class="controls"><input class="hidden" autocomplete="off" type="hidden" name="lab_review[focus_id]" id="lab_review_focus_id"></div></div>
+<div class="control-group hidden lab_review_rating"><div class="controls"><input class="hidden js-rating-input" autocomplete="off" type="hidden" name="lab_review[rating]" id="lab_review_rating"></div></div>
+<div class="control-group text optional lab_review_comment"><label class="text optional control-label" for="lab_review_comment">Additional Comments</label><div class="controls"><textarea class="text optional" name="lab_review[comment]" id="lab_review_comment"></textarea></div></div>
+</div>
+</form><ql-button disabled="" id="submit" label="Submit" slot="action" text=""><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="true">
+        <!--?lit$729167062$-->
+        <button type="button" disabled="" class=" mdc-button gm-button-text ql-button default " aria-label="Submit" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$-->Submit </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-button>
+</ql-dialog>
+
+<ql-dialog headline="Are you sure? You may not be able to restart the lab, and you&#39;ll need to start from the beginning if you do." icon="error_outline" id="js-lab-are-you-sure-dialog" tabindex="-1" aria-hidden="true"><template shadowrootmode="open"><!---->
+      <div class=" dialog-wrapper ">
+        <ql-card elevation="3" role="dialog" aria-labelledby="title" aria-modal="true"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+          <!--?lit$729167062$-->
+      <div part="header" class=" header centered ">
+        <!--?lit$729167062$--> <ql-icon><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$729167062$-->error_outline</slot>
+      </i>
+      <!--?lit$729167062$--><!--?-->
+    </template></ql-icon>
+        <h1 id="title"><!--?lit$729167062$--><!--?lit$729167062$-->Are you sure? You may not be able to restart the lab, and you'll need to start from the beginning if you do.<!--?--></h1>
+      </div>
+      <div class="body" part="body">
+        <slot></slot>
+      </div>
+      <div part="actions" class="actions multiple">
+        <!--?lit$729167062$-->
+      <ql-button class="dismissal-button" label="Cancel"><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button gm-button-text ql-button default " aria-label="Cancel" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$-->Cancel </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template>
+      </ql-button>
+    
+        <slot name="action"></slot>
+      </div>
+    
+        </ql-card>
+        <!--?lit$729167062$--> <div class=" overlay "></div>
+      </div>
+    </template>
+<ql-button id="js-are-you-sure-button" label="End Lab" slot="action" text=""><template shadowrootmode="open"><!----> <!--?lit$729167062$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$729167062$-->
+        <button type="button" class=" mdc-button gm-button-text ql-button default " aria-label="End Lab" aria-busy="false">
+          <!--?lit$729167062$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$729167062$--> <!--?lit$729167062$--> <span class="mdc-button__label"> <!--?lit$729167062$-->End Lab </span> 
+    
+        </button>
+      </div>
+     <!--?lit$729167062$--> </template></ql-button>
+</ql-dialog>
+
+
+<script>
+  document.addEventListener("turbo:load", function () {
+    ql.initMaterialInputs();
+    initChosen();
+    initTabs();
+    ql.list.init();
+    ql.favoriting.init();
+    ql.header.myAccount.init();
+    initTooltips();
+    ql.autocomplete.init();
+    ql.modals.init();
+    ql.toggleButtons.init();
+    ql.analytics.init();
+    Turbo.session.drive = false;
+    ql.chat.init();
+  ql.jumpContent.init();
+  ql.labControlPanel.addRecaptchaErrorHandler();
+  initLabContent();
+  ql.labOutline.links.init();
+  initLabReviewModal();
+  initLabReviewTranslations( {"star_amount_1":"1 of 5 stars","star_amount_2":"2 of 5 stars","star_amount_3":"3 of 5 stars","star_amount_4":"4 of 5 stars","star_amount_5":"5 of 5 stars"} )
+  ql.labAssessment.init();
+  ql.labData.init();
+  initLabTranslations( {"are_you_sure":"Are you sure? You may not be able to restart the lab, and you'll need to start from the beginning if you do.","in_progress":"*In Progress*","ending":"*Ending*","starting":"*Starting, please wait*","end_concurrent_labs":"Sorry, you can only run one lab at a time. To start this lab, please confirm that you want all of your existing labs to end.","copied":"Copied","no_resource":"Error retrieving resource.","no_support":"No Support","mac_press":"Press ⌘-C to copy","thanks_review":"Thanks for reviewing this lab.","windows_press":"Press Ctrl-C to copy","days":"days"} );
+  ql.labRun.init();
+  ql.navPanel.init();
+  ql.navigation.init();
+  
+  }, {once: true});
+</script>
+
+
+
+
+<iframe data-product="web_widget" title="No content" role="presentation" tabindex="-1" allow="microphone *" aria-hidden="true" src="./Introducing Git _ Google Cloud Skills Boost_files/saved_resource(5).html" style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"></iframe><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-px39huluk4vn" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./Introducing Git _ Google Cloud Skills Boost_files/anchor(2).html"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div><div style="visibility: hidden;"><div></div><div><style>
+        @-webkit-keyframes ww-3771d9c2-a88b-489f-ad2f-0f775dce1828-launcherOnOpen {
+          0% {
+            -webkit-transform: translateY(0px) rotate(0deg);
+                    transform: translateY(0px) rotate(0deg);
+          }
+
+          30% {
+            -webkit-transform: translateY(-5px) rotate(2deg);
+                    transform: translateY(-5px) rotate(2deg);
+          }
+
+          60% {
+            -webkit-transform: translateY(0px) rotate(0deg);
+                    transform: translateY(0px) rotate(0deg);
+          }
+
+
+          90% {
+            -webkit-transform: translateY(-1px) rotate(0deg);
+                    transform: translateY(-1px) rotate(0deg);
+
+          }
+
+          100% {
+            -webkit-transform: translateY(-0px) rotate(0deg);
+                    transform: translateY(-0px) rotate(0deg);
+          }
+        }
+        @keyframes ww-3771d9c2-a88b-489f-ad2f-0f775dce1828-launcherOnOpen {
+          0% {
+            -webkit-transform: translateY(0px) rotate(0deg);
+                    transform: translateY(0px) rotate(0deg);
+          }
+
+          30% {
+            -webkit-transform: translateY(-5px) rotate(2deg);
+                    transform: translateY(-5px) rotate(2deg);
+          }
+
+          60% {
+            -webkit-transform: translateY(0px) rotate(0deg);
+                    transform: translateY(0px) rotate(0deg);
+          }
+
+
+          90% {
+            -webkit-transform: translateY(-1px) rotate(0deg);
+                    transform: translateY(-1px) rotate(0deg);
+
+          }
+
+          100% {
+            -webkit-transform: translateY(-0px) rotate(0deg);
+                    transform: translateY(-0px) rotate(0deg);
+          }
+        }
+
+        @keyframes ww-3771d9c2-a88b-489f-ad2f-0f775dce1828-widgetOnLoad {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+
+        @-webkit-keyframes ww-3771d9c2-a88b-489f-ad2f-0f775dce1828-widgetOnLoad {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+      </style><iframe title="Button to launch messaging window" id="launcher" style="color-scheme: light; height: 64px; width: 64px; position: fixed; bottom: 14px; right: 14px; border: 0px; margin-top: 0px; opacity: 0; box-shadow: rgba(23, 73, 77, 0.15) 0px 20px 30px; animation: 0.2s ease-in 0.5s 1 normal forwards running ww-3771d9c2-a88b-489f-ad2f-0f775dce1828-widgetOnLoad; z-index: 999999; border-radius: 50%;" src="./Introducing Git _ Google Cloud Skills Boost_files/saved_resource(6).html"></iframe></div></div><iframe allow="join-ad-interest-group" data-tagging-id="G-2X30ZRBDSG" data-load-time="1726870887842" height="0" width="0" src="./Introducing Git _ Google Cloud Skills Boost_files/rul.html" style="display: none; visibility: hidden;"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="G-3BRP57TPMR" data-load-time="1726870895319" height="0" width="0" src="./Introducing Git _ Google Cloud Skills Boost_files/rul(1).html" style="display: none; visibility: hidden;"></iframe><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" name="c-j0l3b29yr92h" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./Introducing Git _ Google Cloud Skills Boost_files/bframe.html" style="width: 100%; height: 100%;"></iframe></div></div></body></html>
